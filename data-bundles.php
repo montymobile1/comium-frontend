@@ -106,19 +106,22 @@
             <div class="swiper promo-swiper" style="margin-top:calc(0vh + 75px)">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class="w-100" src="/assets/images/bundles/1.webp" alt="">
+                        <img class="w-100" src="/assets/images/bundles/n1.webp" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="w-100" src="/assets/images/bundles/2.webp" alt="">
+                        <img class="w-100" src="/assets/images/bundles/n2.webp" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="w-100" src="/assets/images/bundles/3.webp" alt="">
+                        <img class="w-100" src="/assets/images/bundles/n3.webp" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="w-100" src="/assets/images/bundles/4.webp" alt="">
+                        <img class="w-100" src="/assets/images/bundles/n4.webp" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="w-100" src="/assets/images/bundles/5.webp" alt="">
+                        <img class="w-100" src="/assets/images/bundles/n5.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="w-100" src="/assets/images/bundles/n6.webp" alt="">
                     </div>
                     <!-- <div class="swiper-slide">
                         <img class="w-100" src="/assets/images/bundles/banner1.webp" alt="">
@@ -192,18 +195,11 @@
                                 'subtitle' => '',
                                 'items' => [
                                     [
-                                        'price' => 'D9',
-                                        'data' => '100 MB',
-                                        'validity' => '7 Days',
-                                        'how_to_subscribe' => 'Dial 165 or *606#'
-                                    ],
-                                    [
                                         'price' => 'D15',
                                         'data' => '250 MB',
                                         'validity' => '7 Days',
                                         'how_to_subscribe' => 'Dial 165 or *606#'
                                     ],
-
                                     // [
                                     //     'price' => 'D35',
                                     //     'data' => '1 GB',
@@ -244,20 +240,20 @@
                                 ],
 
                             ],
-                            // [
-                            //     'title' => '21 DAYS',
-                            //     'subtitle' => '',
-                            //     'items' => [
-                            //         [
-                            //             'price' => 'D290',
-                            //             'data' => '10 GB',
-                            //             'validity' => '21 Days',
-                            //             'how_to_subscribe' => 'Dial 158 or *606#'
-                            //         ],
+                            [
+                                'title' => '21 DAYS',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D290',
+                                        'data' => '10 GB',
+                                        'validity' => '21 Days',
+                                        'how_to_subscribe' => 'Dial 158 or *606#'
+                                    ],
 
-                            //     ],
+                                ],
 
-                            // ],
+                            ],
                             [
                                 'title' => '30 DAYS',
                                 'subtitle' => '',
@@ -401,7 +397,6 @@
                             'Price in GMD',
                             'Data',
                             'Validity',
-                            'Data Usage',
                             'How To Subscribe',
                         ],
                         'width' => 'ws-25',
@@ -413,23 +408,7 @@
                                     [
                                         'price' => 'D120',
                                         'data' => '10 GB',
-                                        'validity' => '30days',
-                                        'data_usage' => '12:00AM – 7:00AM',
-                                        'how_to_subscribe' => 'Dial 127 or *606#'
-                                    ],
-
-                                ],
-
-                            ],
-                            [
-                                'title' => 'Night Bundle',
-                                'subtitle' => '',
-                                'items' => [
-                                    [
-                                        'price' => 'D140',
-                                        'data' => '10 GB',
-                                        'validity' => '30days',
-                                        'data_usage' => '12:00AM – 8:00AM',
+                                        'validity' => '12am-7am',
                                         'how_to_subscribe' => 'Dial 127 or *606#'
                                     ],
 
@@ -461,7 +440,7 @@
                                     [
                                         'price' => 'D30',
                                         'data' => '300MB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial 152 <br /> or *606#',
                                         'on_net' => '20 mins',
                                         'off_net' => '',
@@ -470,7 +449,7 @@
                                     [
                                         'price' => 'D50',
                                         'data' => '600MB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '40 mins',
                                         'off_net' => '',
@@ -479,7 +458,7 @@
                                     [
                                         'price' => 'D75',
                                         'data' => '900MB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '70 mins',
                                         'off_net' => '',
@@ -488,7 +467,7 @@
                                     [
                                         'price' => 'D300',
                                         'data' => '2.5GB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '100 mins',
                                         'off_net' => '100 mins',
@@ -497,7 +476,7 @@
                                     [
                                         'price' => 'D600',
                                         'data' => '4.5GB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '250 mins',
                                         'off_net' => '250 mins',
@@ -506,7 +485,7 @@
                                     [
                                         'price' => 'D1000',
                                         'data' => '11.5GB',
-                                        'validity' => '7days',
+                                        'validity' => '30days',
                                         'how_to_subscribe' => 'Dial 153 <br/> or *606#',
                                         'on_net' => '1000 mins',
                                         'off_net' => '500 mins',
@@ -551,24 +530,10 @@
                                 'subtitle' => '',
                                 'items' => [
                                     [
-                                        'price' => 'D98',
+                                        'price' => 'D120',
                                         'validity' => '30days',
                                         'how_to_subscribe' => 'Dial *155# or *606#',
                                         'on_net' => '1200MINS',
-                                    ],
-
-                                ],
-
-                            ],
-                            [
-                                'title' => 'Langa',
-                                'subtitle' => '',
-                                'items' => [
-                                    [
-                                        'price' => 'D120',
-                                        'validity' => '40 Days',
-                                        'how_to_subscribe' => 'Dial *155# or *606#',
-                                        'on_net' => '1500MINS',
                                     ],
 
                                 ],
@@ -703,10 +668,6 @@
                                                             <?php endif; ?>
                                                             <?php if (isset($item['validity'])) : ?>
                                                                 <h6 class="<?= $bundle['width'] ?> mobile-width"><?= $item['validity'] ?></h6>
-                                                            <?php endif; ?>
-
-                                                            <?php if (isset($item['data_usage'])) : ?>
-                                                                <h6 class="<?= $bundle['width'] ?> mobile-width"><?= $item['data_usage'] ?></h6>
                                                             <?php endif; ?>
 
                                                             <?php if (isset($item['how_to_subscribe'])) : ?>
@@ -866,7 +827,6 @@
                                                     <?php if ($item['validity']) : ?>
                                                         <h6 class="<?= $super_bundles['width'] ?> mobile-width"><?= $item['validity'] ?></h6>
                                                     <?php endif; ?>
-
 
                                                     <?php if ($item['how_to_subscribe']) : ?>
                                                         <h6 class="<?= $super_bundles['width'] ?> mobile-width"><?= $item['how_to_subscribe'] ?></h6>

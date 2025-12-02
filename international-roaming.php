@@ -45,7 +45,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
 </head>
 
 <body>

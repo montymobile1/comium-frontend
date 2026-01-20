@@ -366,9 +366,9 @@ section {
   .navbar ul {
     display: none;
   }
-  
-  .navbar-mobile ul{
-      display:block !important;
+
+  .navbar-mobile ul {
+    display: block !important;
   }
 }
 
@@ -1982,7 +1982,7 @@ section {
 }
 
 .blog .blog-author .social-links a {
-  color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
   margin-right: 5px;
 }
 

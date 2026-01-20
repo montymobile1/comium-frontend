@@ -143,7 +143,7 @@
 
         ],
         'extra' => '<h5>Offer Business Rules</h5><ul><li>Offer is for Prepaid customers</li><li>Voice Charging is 60Sec and data charging is 10KB pulse
-                    </li><li>Voice Minutes are valid for: Incoming Calls. Call Back to Gambia & Call to Local (KSA)</li><li>For Remaining bundle resources inquiry, customer has to dial *101#</li><li>After consumption of resources user will charge as per PAYG rate</li><li>Multiple subscription will allow; but customer will get maximum expiry as per the bundle/bucket</li></ul>'
+                    </li><li>Voice Minutes are valid for: Incoming Calls. Call Back to Gambia & Call to Local (KSA)</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#</li><li>After consumption of resources user will charge as per PAYG rate</li><li>Multiple subscription will allow; but customer will get maximum expiry as per the bundle/bucket</li></ul>'
     ];
 
     $data['senegal'] = [
@@ -190,7 +190,7 @@
             ],
 
         ],
-        'extra' => '<h5>Terms & Conditions</h5><ul><li>This offer is valid for Prepaid customers only.</li><li>Bundle Free Minutes are only valid for Incoming Call, Call in Senegal & Call Back to Gambia.</li><li>For Remaining bundle resources inquiry, customer has to dial *101#.</li><li>Multiple subscription of bundle is allowed; but expiry of bundle will be as per the latest bundle.</li><li>Above mentioned bundle prices are tax 22.50% included</li><li>Above bundle and bucket are only valid for Senegal preferred operator.</li></ul>'
+        'extra' => '<h5>Terms & Conditions</h5><ul><li>This offer is valid for Prepaid customers only.</li><li>Bundle Free Minutes are only valid for Incoming Call, Call in Senegal & Call Back to Gambia.</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#.</li><li>Multiple subscription of bundle is allowed; but expiry of bundle will be as per the latest bundle.</li><li>Above mentioned bundle prices are tax 22.50% included</li><li>Above bundle and bucket are only valid for Senegal preferred operator.</li></ul>'
     ];
     $current = $data[$country];
     ?>
@@ -341,6 +341,8 @@
                     <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                         <h4>Contact Us</h4>
                         <p> 27 Kairaba Avenue <br /> Pipeline,KSMD <br /> Banjul-The Gambia <br />
+                            <strong>Monday</strong> to <strong>Friday</strong> 8:30 AM - 5:00 PM</strong> <br />
+                            <strong>Saturday:</strong> 9:00 AM - 2:00 PM <br />
                             <strong>Phone:</strong>
                             <a href="tel:+220 6 601 111" style="color:black" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">+220 6 601 111</a>
                             <br />

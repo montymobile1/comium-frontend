@@ -60,13 +60,13 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="#about">About <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
+                        <a class="nav-link scrollto hover-careers" href="/#about">About <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="#products">Products & Services <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
+                        <a class="nav-link scrollto hover-careers" href="/#products">Products & Services <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
@@ -78,14 +78,14 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
+                        <a class="nav-link scrollto hover-careers" href="/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
                     </li>
                     <li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="#contact">Contact <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
+                        <a class="nav-link scrollto hover-careers" href="/#contact">Contact <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
@@ -245,7 +245,7 @@
                                 'subtitle' => '',
                                 'items' => [
                                     [
-                                        'price' => 'D290',
+                                        'price' => 'D500',
                                         'data' => '10 GB',
                                         'validity' => '21 Days',
                                         'how_to_subscribe' => 'Dial 158 or *606#'
@@ -259,6 +259,12 @@
                                 'subtitle' => '',
                                 'items' => [
                                     [
+                                        'price' => 'D30',
+                                        'data' => '350MB',
+                                        'validity' => '30 Days',
+                                        'how_to_subscribe' => 'Dial 152 or *606#'
+                                    ],
+                                    [
                                         'price' => 'D40',
                                         'data' => '500MB',
                                         'validity' => '30 Days',
@@ -269,12 +275,6 @@
                                         'data' => '750MB',
                                         'validity' => '30 Days',
                                         'how_to_subscribe' => 'Dial 163 or *606#'
-                                    ],
-                                    [
-                                        'price' => 'D30',
-                                        'data' => '350MB',
-                                        'validity' => '30 Days',
-                                        'how_to_subscribe' => 'Dial 152 or *606#'
                                     ],
                                     [
                                         'price' => 'D120',
@@ -306,12 +306,12 @@
                                         'validity' => '30 Days',
                                         'how_to_subscribe' => 'Dial *606#'
                                     ],
-                                    [
-                                        'price' => 'D500',
-                                        'data' => '10GB',
-                                        'validity' => '30 Days',
-                                        'how_to_subscribe' => 'Dial *606#'
-                                    ],
+                                    // [
+                                    //     'price' => 'D500',
+                                    //     'data' => '10GB',
+                                    //     'validity' => '30 Days',
+                                    //     'how_to_subscribe' => 'Dial *606#'
+                                    // ],
                                     [
                                         'price' => 'D600',
                                         'data' => '12GB',
@@ -500,48 +500,90 @@
                         ]
                     ];
 
+
+
                     $bundles[] = [
-                        'name' => 'Katcha & Langa (Voice)',
+                        'name' => 'Diyaa Bundles',
                         'icon' => '/assets/images/bundles/sakan.svg',
                         'head' => [
                             'Price in GMD',
+                            'Data',
                             'Validity',
                             'How To Subscribe',
-                            'On-net',
                         ],
                         'width' => 'ws-25',
                         'bundle' => [
                             [
-                                'title' => 'Katcha',
+                                'title' => 'Diyaa Bundles',
                                 'subtitle' => '',
                                 'items' => [
+                                    [
+                                        'price' => 'D11',
+                                        'data' => '120MB',
+                                        'validity' => '2 days',
+                                        'how_to_subscribe' => '*606*6#',
+                                    ],
                                     [
                                         'price' => 'D25',
-                                        'validity' => '30days',
-                                        'how_to_subscribe' => 'Dial 155 or *606#',
-                                        'on_net' => '100MINS',
+                                        'data' => '500MB',
+                                        'validity' => '2 days',
+                                        'how_to_subscribe' => '*606*6#',
+                                    ],
+                                    [
+                                        'price' => 'D100',
+                                        'data' => '2GB',
+                                        'validity' => '7 days',
+                                        'how_to_subscribe' => '*606*6#',
+                                    ],
+                                    [
+                                        'price' => 'D250',
+                                        'data' => '5GB',
+                                        'validity' => '14 days',
+                                        'how_to_subscribe' => '*606*6#',
+                                    ],
+                                    [
+                                        'price' => 'D600',
+                                        'data' => '12GB',
+                                        'validity' => '14 days',
+                                        'how_to_subscribe' => '*606*6#',
                                     ],
 
                                 ],
 
                             ],
+                        ]
+                    ];
+
+                    $bundles[] = [
+                        'name' => 'KAA Bundle',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Price in GMD',
+                            'Data',
+                            'Validity',
+                            'How To Subscribe',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
                             [
-                                'title' => 'Langa',
+                                'title' => 'KAA Bundle',
                                 'subtitle' => '',
                                 'items' => [
                                     [
-                                        'price' => 'D120',
-                                        'validity' => '30days',
-                                        'how_to_subscribe' => 'Dial *155# or *606#',
-                                        'on_net' => '1200MINS',
+                                        'price' => 'D75',
+                                        'data' => '1GB',
+                                        'validity' => '3 days',
+                                        'how_to_subscribe' => '*606*1#',
                                     ],
+
 
                                 ],
 
                             ],
-
                         ]
                     ];
+
+
 
                     // $bundles[] = [
                     //     'name' => 'WhatsApp',
@@ -615,11 +657,96 @@
                     //     ]
                     // ];
 
+                    $bundles[] = [
+                        'name' => 'Voice Bundles',
+                        'id' => 'voice',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Price in GMD',
+                            'Validity',
+                            'How To Subscribe',
+                            'On-net',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
+                            [
+                                'title' => 'Kacha',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D25',
+                                        'validity' => '30days',
+                                        'how_to_subscribe' => 'Dial 155 or *606#',
+                                        'on_net' => '100 mins',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => 'Langa',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D98',
+                                        'validity' => '30days',
+                                        'how_to_subscribe' => 'Dial *155# or *606#',
+                                        'on_net' => '1500 mins',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => 'Buunyaa',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D75',
+                                        'validity' => '5days',
+                                        'how_to_subscribe' => 'Dial *155# or *606#',
+                                        'on_net' => '-',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => 'Never Miss a Call',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D10',
+                                        'validity' => '30days',
+                                        'how_to_subscribe' => 'Dial *646#',
+                                        'on_net' => '-',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => 'Call Me Back',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '-',
+                                        'validity' => '-',
+                                        'how_to_subscribe' => 'Dial *646#',
+                                        'on_net' => '-',
+                                    ],
+
+                                ],
+
+                            ],
+
+                        ]
+                    ];
 
                     ?>
                     <section class="">
                         <?php foreach ($bundles as $bundle) : ?>
-                            <div class="bundle-wrapper">
+                            <div class="bundle-wrapper" id="<?= (isset($bundle['id']) && !empty($bundle['id'])) ? $bundle['id'] : '' ?>">
                                 <div class="bundle-header">
                                     <div>
                                         <img src="<?= $bundle['icon'] ?>" alt="">
@@ -787,6 +914,9 @@
                                 ],
                             ],
                         ];
+
+
+
                         ?>
                         <!-- <div class="bundle-wrapper">
                             <div class="bundle-header">
@@ -875,25 +1005,27 @@
                                 <ul class="no-bullets">
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
-                                        <a href="#products">Products & Services</a>
+                                        <a href="/#products">Products & Services</a>
                                     </li>
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
-                                        <a href="#about">About</a>
+                                        <a href="/#about">About</a>
                                     </li>
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
-                                        <a href="#careers">Careers</a>
+                                        <a href="/#careers">Careers</a>
                                     </li>
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
-                                        <a href="#contact">Contact</a>
+                                        <a href="/#contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                                 <h4>Contact Us</h4>
                                 <p> 27 Kairaba Avenue <br /> Pipeline,KSMD <br /> Banjul-The Gambia <br />
+                                    <strong>Monday</strong> to <strong>Friday</strong> 8:30 AM - 5:00 PM</strong> <br />
+                                    <strong>Saturday:</strong> 9:00 AM - 2:00 PM <br />
                                     <strong>Phone:</strong>
                                     <a href="tel:+220 6 601 111" style="color:black" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">+220 6 601 111</a>
                                     <br />

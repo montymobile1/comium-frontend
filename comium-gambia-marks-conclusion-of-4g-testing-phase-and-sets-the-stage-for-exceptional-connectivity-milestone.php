@@ -252,6 +252,8 @@
               <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                 <h4>Contact Us</h4>
                 <p> 27 Kairaba Avenue <br /> Pipeline,KSMD <br /> Banjul-The Gambia <br />
+                  <strong>Monday</strong> to <strong>Friday</strong> 8:30 AM - 5:00 PM</strong> <br />
+                  <strong>Saturday:</strong> 9:00 AM - 2:00 PM <br />
                   <strong>Phone:</strong>
                   <a href="tel:+220 6 601 111" style="color:black" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">+220 6 601 111</a>
                   <br />

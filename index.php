@@ -33,7 +33,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v40" rel="stylesheet" />
+  <link href="assets/css/style.css?v46" rel="stylesheet" />
   <link href="assets/css/main.css?v57" rel="stylesheet" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
@@ -163,7 +163,7 @@
 
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/new5.webp" alt="" />
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/images/bundles/vacation.webp" alt="" />
             </div>
           </div>
           <!-- <div class="swiper-slide">
@@ -367,18 +367,21 @@
               "> Our products are here to connect you to the ones you love, with affordable prices and the most attractive bundles in the market. </p>
             </header>
             <div class="row gy-4">
-              <div class="col-lg-4 col-md-6" data-aos="fade-up">
-                <div class="service-box black">
-                  <span>
-                    <img src="assets/img/ic5.svg?v2" alt="connectivity" />
-                  </span>
-                  <h3>4G Connection</h3>
-                  <p class="cnx-mobile">Comium is currently working on bringing the super extended 4G+ to the Gambia, by building its network infrastructure in both the industrial and rural areas. <br>
-                    <br> Stay tuned as our experts are building the most cutting-edge internet towers to provide you with the uninterrupted network you deserve.
-                  </p>
-                  <p class="cnx-random">Comium is currently working on bringing the super extended 4G+ to the Gambia, by building its network infrastructure in both the industrial and rural areas.</p>
-                  <p class="cnx-overlay"> Stay tuned as our experts are building the most cutting-edge internet towers to provide you with the uninterrupted network you deserve </p>
-                </div>
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a style="color:rgb(68,68,68);" href=" /comcach">
+                  <div class="service-box black">
+                    <span>
+                      <img src="assets/img/ic5.svg?v2" alt="connectivity" />
+                    </span>
+                    <h3>Comcach</h3>
+                    <p class="cnx-mobile">Are you ready to seize convenience and unlock endless financial opportunities? Look no further than ComCach, the revolutionary digital finance platform brought to you by Comium.
+                    </p>
+                    <p class="cnx-random">Are you ready to seize convenience and unlock endless financial opportunities? Look no further than ComCach, the revolutionary digital finance platform brought to you by Comium.</p>
+                    <p class="cnx-overlay"> Whether you're sending money to loved ones or making airtime purchases, ComCach simplifies the process, putting the power of finance in the palm of your hand.
+
+                    </p>
+                  </div>
+                </a>
               </div>
               <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up">
                 <div class="service-box orange">
@@ -401,7 +404,7 @@
                 </div>
               </div> -->
 
-              <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
                 <a style="color:rgb(68,68,68);" href="/data-bundles">
                   <div class="service-box orange">
                     <span>
@@ -413,7 +416,25 @@
                 </a>
 
               </div>
-              <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/data-bundles#voice" style="color:black;">
+                  <div class="service-box red ">
+                    <span>
+                      <img src="assets/img/voice.svg?v3" alt="Internet Provider" />
+                    </span>
+                    <h3>Voice Bundles</h3>
+                    <p class="isp-mobile"> Choose Voice Bundles <br>
+                    </p>
+                    <p class="isp-overlay"> Choose Voice Bundles </p>
+                    <p class="isp-random"> Choose Voice Bundles
+                    </p>
+
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
                 <a href="/fastnet" style="color:black;">
                   <div class="service-box red ">
                     <span>
@@ -462,71 +483,12 @@
             </header>
             <div class="row ">
               <div class="col-xl-10 offset-xl-2 d-flex content">
-                <div class="row align-self-center gy-4 ">
-                  <div class="col-md-6 icon-box  " data-aos="fade-up">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>DBA Engineer</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Billing Engineer </h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Senior System Engineer </h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4> HR Manager</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers"> Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="400">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4> HR Officer</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
+                <div class="row align-self-center gy-4 w-100">
+
                   <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="500">
                     <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
                     <div style="margin:auto;margin-left:10px">
-                      <h4>Senior Radio Engineer</h4>
+                      <h4>Call Center agent</h4>
                       <p>
                         <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -535,10 +497,11 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
+
+                  <div class="col-md-6 icon-box " data-aos="fade-up" data-aos-delay="500">
                     <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
                     <div style="margin:auto;margin-left:10px">
-                      <h4>OCS Engineer</h4>
+                      <h4>Customer care agent</h4>
                       <p>
                         <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -547,81 +510,10 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>NOC Engineer</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Social Networking Specialist</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Customer Care Agent</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Call Center Agent</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Senior Core Engineer</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 icon-box " id="collapse" style="display:none" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/img/careers.svg?v1" style="height:60px">
-                    <div style="margin:auto;margin-left:10px">
-                      <h4>Sales Engineer</h4>
-                      <p>
-                        <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-xl-10 ">
+
+                  <!-- <div class="col-xl-10 ">
                     <div class="row show-more" style=" margin-top:25px;font-size: 14px;font-weight: 700;color: #e1251b; color: #E1251B;padding:0;text-align:center">View More</div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -752,7 +644,7 @@
                   <div class="col-md-6">
                     <div class="info-box">
                       <i class="bi bi-clock"></i>
-                      <h3>Our Shops Locations</h3>
+                      <h3>Our Showrooms Locations</h3>
                       <p>You are welcome to visit any of our shops to enquire about any product, service or offer.</p>
                     </div>
                   </div>
@@ -1060,6 +952,399 @@
           </div>
         </section>
         <!-- End Contact Section -->
+
+        <section id="showrooms-cards" class="py-5 bg-light">
+          <div class="container">
+
+            <div class="row mb-5">
+              <div class="col text-center">
+                <h2 class="mb-2">Showroom Locations</h2>
+                <p class="text-muted">
+                  Find your nearest showroom and get directions instantly.
+                </p>
+              </div>
+            </div>
+
+            <div class="row g-4">
+
+              <!-- Amdalai -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Amdalai</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Amdalai</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.590182,-16.422057" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bajakunda -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bajakunda</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Bajakunda</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.473999,-14.050765" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Banjul -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Banjul</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Banjul</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.453144,-16.574488" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bansang -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bansang</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Bansang</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.434018,-14.653366" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Barra -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Barra</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Barra</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.485211,-16.545307" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Basse -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Basse</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Basse</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.309978,-14.211515" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Brikama 1 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Brikama 1</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.274461,-16.650113" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Brikama 2 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Brikama 2</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Brikama Ba -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama Ba</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Brikama Ba</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Brusubi -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brusubi</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Brusubi</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.406767,-16.729029" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Busumbala -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Busumbala</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Busumbala</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.334702,-16.669187" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Farafenni 1 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Farafenni 1</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.571477,-15.59557" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Farafenni 2 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Farafenni 2</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.57133,-15.598145" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Gunjur -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Gunjur</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Gunjur</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.182154,-16.759552" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Jabang -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Jabang</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Jabang</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.396633,-16.706227" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HQ -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kairaba Avenue</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Head Office</h6>
+                    <h5 class="card-title mb-4">HQ</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.455819,-16.683292" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kaur -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kaur</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Kaur</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.706149,-15.330807" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kololi -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kololi</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Senegambia</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.441744,-16.720499" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Latrikunda -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Latrikunda</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Latrikunda</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.412303,-16.670761" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sanyang -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sanyang</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Sanyang</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.268183,-16.762777" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sinchu -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sinchu Alagie</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Sinchu</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.37213,-16.683799" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Soma -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Soma</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Soma</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.441567,-15.532494" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sukuta -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sukuta</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Sukuta</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.419176,-16.705221" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wassu -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Wassu</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Wassu</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.693137,-14.879464" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Airport -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm position-relative">
+                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Yundum</span>
+                  <div class="card-body d-flex flex-column pt-4">
+                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                    <h5 class="card-title mb-4">Airport</h5>
+                    <div class="mt-auto d-flex gap-2">
+                      <a href="https://www.google.com/maps/search/?api=1&query=13.344041,-16.652147" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
       </main>
       <!-- End #main -->
       <!-- ======= Footer ======= -->
@@ -1128,6 +1413,8 @@
               <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                 <h4>Contact Us</h4>
                 <p> 27 Kairaba Avenue <br /> Pipeline,KSMD <br /> Banjul-The Gambia <br />
+                  <strong>Monday</strong> to <strong>Friday</strong> 8:30 AM - 5:00 PM</strong> <br />
+                  <strong>Saturday:</strong> 9:00 AM - 2:00 PM <br />
                   <strong>Phone:</strong>
                   <a href="tel:+220 6 601 111 " style="color:black" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">+220 6 601 111 </a>
                   <br />

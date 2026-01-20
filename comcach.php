@@ -138,6 +138,12 @@
             </a>
           </li>
           <li>
+            <a class="nav-link hover-careers" href="/international-roaming">International Roaming <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
             <a class="nav-link hover-careers" href="https://comium.gm/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
@@ -241,7 +247,7 @@
                   </span>
                   <p class="mt-4 display-7">Seamless <br>Transactions</p>
                   <p class="cnx-mobile">
-                    ComCach enables seamless peer-to-peer transfers and airtime purchases, allowing you to send money to family and friends or top up your airtime with just a few taps on your phone.
+                    Comcach enables seamless peer-to-peer transfers and airtime purchases for all networks in The Gambia, and electricity purchase. Allowing you to send money to family and friends or top up your airtime and buy cash power with just a few taps on your phone.
                   </p>
                 </div>
               </div>
@@ -357,6 +363,8 @@
               <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                 <h4>Contact Us</h4>
                 <p> 27 Kairaba Avenue <br /> Pipeline,KSMD <br /> Banjul-The Gambia <br />
+                  <strong>Monday</strong> to <strong>Friday</strong> 8:30 AM - 5:00 PM</strong> <br />
+                  <strong>Saturday:</strong> 9:00 AM - 2:00 PM <br />
                   <strong>Phone:</strong>
                   <a href="tel:+220 6 601 111" style="color:black" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">+220 6 601 111</a>
                   <br />

@@ -344,19 +344,19 @@
                 <ul class="no-bullets">
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#products">Products & Services</a>
+                    <a href="/#products">Products & Services</a>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#about">About</a>
+                    <a href="/#about">About</a>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#careers">Careers</a>
+                    <a href="/#careers">Careers</a>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#contact">Contact</a>
+                    <a href="/#contact">Contact</a>
                   </li>
                 </ul>
               </div>

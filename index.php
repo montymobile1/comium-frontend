@@ -953,394 +953,481 @@
         </section>
         <!-- End Contact Section -->
 
+        <!-- Showrooms / Calm Card Layout + View More (NO JS) -->
         <section id="showrooms-cards" class="py-5 bg-light">
           <div class="container">
 
             <div class="row mb-5">
               <div class="col text-center">
                 <h2 class="mb-2">Showroom Locations</h2>
-                <p class="text-muted">
-                  Find your nearest showroom and get directions instantly.
-                </p>
+                <p class="text-muted">Find your nearest showroom and get directions instantly.</p>
               </div>
             </div>
 
-            <div class="row g-4">
+            <!-- No-JS toggle styles -->
+            <style>
+              /* Layout wrapper so we can reorder elements when expanded */
+              #showrooms-cards .showrooms-wrap {
+                display: flex;
+                flex-direction: column;
+              }
 
-              <!-- Amdalai -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Amdalai</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Amdalai</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.590182,-16.422057" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+              /* Hide checkbox */
+              #showrooms-cards #toggle-showrooms {
+                position: absolute;
+                opacity: 0;
+                pointer-events: none;
+              }
+
+              /* Default: button sits after first 2 rows */
+              #showrooms-cards .showrooms-toggle-label {
+                order: 3;
+                margin-top: 1.5rem;
+              }
+
+              /* Default: extra cards hidden */
+              #showrooms-cards .showrooms-more {
+                display: none;
+                order: 4;
+              }
+
+              /* Expanded: show extra cards */
+              #showrooms-cards #toggle-showrooms:checked~.showrooms-more {
+                display: block;
+                animation: showroomFadeIn .35s ease;
+                order: 3;
+                /* move above the button when expanded */
+              }
+
+              /* Expanded: move button to bottom */
+              #showrooms-cards #toggle-showrooms:checked~.showrooms-toggle-label {
+                order: 4;
+              }
+
+              /* Toggle button text (no JS) */
+              #showrooms-cards .showrooms-toggle-label .less {
+                display: none;
+              }
+
+              #showrooms-cards #toggle-showrooms:checked~.showrooms-toggle-label .more {
+                display: none;
+              }
+
+              #showrooms-cards #toggle-showrooms:checked~.showrooms-toggle-label .less {
+                display: inline;
+              }
+
+              @keyframes showroomFadeIn {
+                from {
+                  opacity: 0;
+                  transform: translateY(10px);
+                }
+
+                to {
+                  opacity: 1;
+                  transform: translateY(0);
+                }
+              }
+            </style>
+
+            <div class="showrooms-wrap position-relative">
+
+              <!-- FIRST 2 ROWS (8 CARDS) -->
+              <div class="row g-4" style="order:1;">
+
+                <!-- 1) Airport Showroom -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Yundum</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Airport</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.344041,-16.652147" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Bajakunda -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bajakunda</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Bajakunda</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.473999,-14.050765" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 2) Amdalai -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Amdalai</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Amdalai</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.590182,-16.422057" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Banjul -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Banjul</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Banjul</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.453144,-16.574488" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 3) Bajakunda -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bajakunda</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Bajakunda</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.473999,-14.050765" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Bansang -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bansang</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Bansang</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.434018,-14.653366" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 4) Banjul -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Banjul</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Banjul</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.453144,-16.574488" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Barra -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Barra</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Barra</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.485211,-16.545307" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 5) Bansang -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bansang</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Bansang</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.434018,-14.653366" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Basse -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Basse</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Basse</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.309978,-14.211515" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 6) Basse -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Basse</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Basse</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.309978,-14.211515" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Brikama 1 -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Brikama 1</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.274461,-16.650113" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 7) Brikama 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Brikama 1</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.274461,-16.650113" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Brikama 2 -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Brikama 2</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                <!-- 8) Brikama 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-4">Brikama 2</h5>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
                     </div>
                   </div>
                 </div>
+
               </div>
 
-              <!-- Brikama Ba -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama Ba</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Brikama Ba</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+              <!-- TOGGLE (no JS) -->
+              <input type="checkbox" id="toggle-showrooms" />
+
+              <!-- REMAINING CARDS (hidden until checked) -->
+              <div class="showrooms-more mt-4">
+
+                <div class="row g-4">
+
+                  <!-- Brikama Ba -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brikama Ba</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Brikama Ba</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
+
+                  <!-- Farafenni 1 -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Farafenni 1</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.571477,-15.59557" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Farafenni 2 -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Farafenni 2</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.57133,-15.598145" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Kaur -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kaur</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Kaur</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.706149,-15.330807" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Sanyang -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sanyang</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Sanyang</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.268183,-16.762777" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Soma -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Soma</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Soma</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.441567,-15.532494" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Wassu -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Wassu</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Wassu</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.693137,-14.879464" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Sukuta -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sukuta</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Sukuta</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.419176,-16.705221" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Jabang -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Jabang</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Jabang</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.396633,-16.706227" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Busumbala -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Busumbala</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Busumbala</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.334702,-16.669187" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- HQ -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kairaba Avenue</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Head Office</h6>
+                        <h5 class="card-title mb-4">HQ</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.455819,-16.683292" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Barra -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Barra</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Barra</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.485211,-16.545307" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Gunjur -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Gunjur</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Gunjur</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.182154,-16.759552" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Senegambia -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kololi</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Senegambia</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.441744,-16.720499" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Brusubi -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brusubi</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Brusubi</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.406767,-16.729029" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Sinchu -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sinchu alagie</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Sinchu</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.37213,-16.683799" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Latrikunda -->
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm position-relative">
+                      <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Latrikunda</span>
+                      <div class="card-body d-flex flex-column pt-4">
+                        <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                        <h5 class="card-title mb-4">Latrikunda</h5>
+                        <div class="mt-auto d-flex gap-2">
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.412303,-16.670761" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
 
-              <!-- Brusubi -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Brusubi</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Brusubi</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.406767,-16.729029" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Busumbala -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Busumbala</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Busumbala</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.334702,-16.669187" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Farafenni 1 -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Farafenni 1</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.571477,-15.59557" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Farafenni 2 -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Farafenni</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Farafenni 2</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.57133,-15.598145" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Gunjur -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Gunjur</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Gunjur</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.182154,-16.759552" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Jabang -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Jabang</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Jabang</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.396633,-16.706227" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- HQ -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kairaba Avenue</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Head Office</h6>
-                    <h5 class="card-title mb-4">HQ</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.455819,-16.683292" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Kaur -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kaur</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Kaur</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.706149,-15.330807" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Kololi -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Kololi</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Senegambia</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.441744,-16.720499" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Latrikunda -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Latrikunda</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Latrikunda</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.412303,-16.670761" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Sanyang -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sanyang</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Sanyang</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.268183,-16.762777" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Sinchu -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sinchu Alagie</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Sinchu</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.37213,-16.683799" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Soma -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Soma</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Soma</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.441567,-15.532494" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Sukuta -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Sukuta</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Sukuta</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.419176,-16.705221" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Wassu -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Wassu</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Wassu</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.693137,-14.879464" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Airport -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm position-relative">
-                  <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Yundum</span>
-                  <div class="card-body d-flex flex-column pt-4">
-                    <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
-                    <h5 class="card-title mb-4">Airport</h5>
-                    <div class="mt-auto d-flex gap-2">
-                      <a href="https://www.google.com/maps/search/?api=1&query=13.344041,-16.652147" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
-                      <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <!-- VIEW MORE BUTTON (no JS) -->
+              <label for="toggle-showrooms" class="showrooms-toggle-label btn btn-outline-secondary mx-auto px-4">
+                <span class="more">View more locations</span>
+                <span class="less">View fewer locations</span>
+              </label>
 
             </div>
           </div>

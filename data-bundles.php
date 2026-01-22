@@ -704,7 +704,7 @@
                                     [
                                         'price' => 'D75',
                                         'validity' => '5days',
-                                        'how_to_subscribe' => 'Dial *155# or *606#',
+                                        'how_to_subscribe' => 'Buy D75 or more',
                                         'on_net' => '-',
                                     ],
 
@@ -712,7 +712,7 @@
 
                             ],
                             [
-                                'title' => 'Never Miss a Call',
+                                'title' => 'Miss Call Notification',
                                 'subtitle' => '',
                                 'items' => [
                                     [

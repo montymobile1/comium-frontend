@@ -423,10 +423,10 @@
                       <img src="assets/img/voice.svg?v3" alt="Internet Provider" />
                     </span>
                     <h3>Voice Bundles</h3>
-                    <p class="isp-mobile"> Choose Voice Bundles <br>
+                    <p class="isp-mobile"> Talk more and spend less with our affordable voice bundles. Choose from flexible plans that give you clear calls and excellent value every time you dial.' <br>
                     </p>
-                    <p class="isp-overlay"> Choose Voice Bundles </p>
-                    <p class="isp-random"> Choose Voice Bundles
+                    <p class="isp-overlay"> Talk more and spend less with our affordable voice bundles. Choose from flexible plans that give you clear calls and excellent value every time you dial.' </p>
+                    <p class="isp-random"> Talk more and spend less with our affordable voice bundles. Choose from flexible plans that give you clear calls and excellent value every time you dial.'
                     </p>
 
                   </div>
@@ -490,6 +490,9 @@
                     <div style="margin:auto;margin-left:10px">
                       <h4>Call Center agent</h4>
                       <p>
+                        Call Center Agents are the voice of Comium, delivering fast, friendly, and reliable support to our customers. The role involves handling service inquiries, providing accurate information, promoting Comium products and services, and ensuring every customer interaction builds trust and loyalty.
+                      </p>
+                      <p>
                         <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                           </svg>
@@ -502,6 +505,9 @@
                     <img src="assets/img/careers.svg?v1" alt="careers" style="height:60px">
                     <div style="margin:auto;margin-left:10px">
                       <h4>Customer care agent</h4>
+                      <p>
+                        Customer Care Agents play a key role in creating exceptional customer experiences at Comium. They handle customer inquiries and complaints with professionalism and empathy, promote Comium services, and work to ensure long-term customer satisfaction.
+                      </p>
                       <p>
                         <a href="mailto:career@comium.gm" style="color:#848484;font-size:15px" class="hover-careers">Apply Here <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="grey" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />

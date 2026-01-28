@@ -252,7 +252,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <a href="#exclusive-offers" class="col-lg-4 col-md-6" data-aos="fade-up">
                 <div class="service-box-new box-3" style="border-bottom:3px solid #FF8300;">
                   <span class="icon-wrap">
                     <svg xmlns="http://www.w3.org/2000/svg" width="62" height="63" viewBox="0 0 62 63" fill="none">
@@ -264,11 +264,16 @@
 
 
                   </span>
-                  <p class="mt-4 display-7">Exclusive <br> Offers</p>
-                  <p class="cnx-mobile">
+                  <style>
+                    a:hover .hover-white {
+                      color: white !important;
+                    }
+                  </style>
+                  <p class="mt-4 display-7 hover-white" style="color:#444444;">Exclusive <br> Offers</p>
+                  <p class="cnx-mobile hover-white" style="color:#444444">
                     As a ComCach user, you'll enjoy exclusive offers on Comium bundles, ensuring that you get the best value for your money.</p>
                 </div>
-              </div>
+              </a>
 
             </div>
           </div>
@@ -280,7 +285,199 @@
           </div>
 
         </section>
+        <!-- Bootstrap 5 Responsive Bundles Table -->
+        <section id="exclusive-offers" class="py-4" style="background-color: white;padding-top:50px !important;">
+          <div class="container">
 
+            <!-- Header -->
+            <div class="mb-3">
+              <h3 class="mb-1 fw-bold" style="color:#e1251b;">
+                Exclusive Offers
+              </h3>
+            </div>
+
+            <!-- Table -->
+            <div class="table-responsive shadow-sm rounded-4 border">
+
+              <table class="table table-hover align-middle mb-0">
+
+                <!-- Table Head -->
+                <thead style="background-color:#e1251b;" class="text-white">
+                  <tr>
+                    <th class="py-3 px-4">Bundle</th>
+                    <th class="py-3 text-nowrap">New Tariff (GMD)</th>
+                    <th class="py-3 px-4">Validity</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+
+                  <!-- MB Section -->
+                  <tr class="table-light">
+                    <td colspan="3" class="fw-semibold py-2 px-4 text-uppercase small">
+                      MB Bundles
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        MB
+                      </span>
+                      <span class="fw-semibold">60MB</span>
+                    </td>
+                    <td class="fw-semibold">D6</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        1 DAY
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        MB
+                      </span>
+                      <span class="fw-semibold">230MB</span>
+                    </td>
+                    <td class="fw-semibold">D12</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        1 DAY
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        MB
+                      </span>
+                      <span class="fw-semibold">350MB</span>
+                    </td>
+                    <td class="fw-semibold">D18</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        7 DAYS
+                      </span>
+                    </td>
+                  </tr>
+
+                  <!-- GB Section -->
+                  <tr class="table-light">
+                    <td colspan="3" class="fw-semibold py-2 px-4 text-uppercase small">
+                      GB Bundles
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">1.5GB</span>
+                    </td>
+                    <td class="fw-semibold">D60</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        10 days
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">5GB</span>
+                    </td>
+                    <td class="fw-semibold">D200</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        30 days
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">10GB</span>
+                    </td>
+                    <td class="fw-semibold">D400</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        40 days
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">15GB</span>
+                    </td>
+                    <td class="fw-semibold">D600</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        45 days
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">25GB</span>
+                    </td>
+                    <td class="fw-semibold">D1000</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        60 days
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="px-4">
+                      <span class="badge rounded-pill me-2"
+                        style="background-color:#e1251b;">
+                        GB
+                      </span>
+                      <span class="fw-semibold">35GB</span>
+                    </td>
+                    <td class="fw-semibold">D1,400</td>
+                    <td class="px-4">
+                      <span class="badge bg-light text-dark border">
+                        60 days
+                      </span>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+
+
+          </div>
+        </section>
         <section class="comcach-section">
           <div class="container">
             <div class="row">
@@ -305,11 +502,14 @@
                 </div>
               </div>
               <div class="col-lg-6 d-flex align-items-center">
-                <img class="w-100" src="assets/images/comcach/mobilephones.webp" alt="">
+                <img class="w-100" src="assets/images/comcach/mobilephones3.webp" alt="">
               </div>
             </div>
           </div>
         </section>
+
+
+
 
       </main>
       <!-- End #main -->

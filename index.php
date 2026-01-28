@@ -125,41 +125,41 @@
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b2.webp" alt="" />
             </div>
           </div>
-          <div class="swiper-slide">
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b3.webp" alt="" />
             </div>
-          </div>
+          </div> -->
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b4.webp" alt="" />
             </div>
           </div>
-          <div class="swiper-slide">
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b5.webp" alt="" />
             </div>
-          </div>
-          <div class="swiper-slide">
+          </div> -->
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b6.webp" alt="" />
             </div>
-          </div>
-          <div class="swiper-slide">
+          </div> -->
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b7.webp" alt="" />
             </div>
-          </div>
-          <div class="swiper-slide">
+          </div> -->
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b8.webp" alt="" />
             </div>
-          </div>
-          <div class="swiper-slide">
+          </div> -->
+          <!-- <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b9.webp" alt="" />
             </div>
-          </div>
+          </div> -->
 
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">

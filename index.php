@@ -463,7 +463,7 @@
         </style>
         <!-- End About Section -->
         <!-- ======= Values Section ======= -->
-        <section id="careers" class="values careers features">
+        <!-- <section id="careers" class="values careers features">
           <div class="container feature-icons" data-aos="fade-up">
             <header class="section-header">
               <p style="    margin: 10px 0 0 0;
@@ -516,15 +516,694 @@
                       </p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
 
-                  <!-- <div class="col-xl-10 ">
-                    <div class="row show-more" style=" margin-top:25px;font-size: 14px;font-weight: 700;color: #e1251b; color: #E1251B;padding:0;text-align:center">View More</div>
-                  </div> -->
+        <style>
+          :root {
+            --brand-red: #e1251b;
+          }
+
+          .vacancies-section {
+            background:
+              radial-gradient(900px 500px at 10% 0%, rgba(225, 37, 27, .10), transparent 60%),
+              radial-gradient(900px 500px at 90% 20%, rgba(225, 37, 27, .08), transparent 55%),
+              #ffffff;
+          }
+
+          .vacancies-title {
+            letter-spacing: .2px;
+          }
+
+          .badge-deadline {
+            background: rgba(225, 37, 27, .10);
+            color: var(--brand-red);
+            border: 1px solid rgba(225, 37, 27, .25);
+          }
+
+          .vacancy-card {
+            border: 1px solid rgba(0, 0, 0, .08);
+            border-radius: 18px;
+            overflow: hidden;
+            transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+            box-shadow: 0 10px 24px rgba(0, 0, 0, .06);
+            height: 100%;
+          }
+
+          .vacancy-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(225, 37, 27, .25);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, .10);
+          }
+
+          .vacancy-topbar {
+            background: linear-gradient(90deg, rgba(225, 37, 27, .12), rgba(225, 37, 27, .02));
+            border-bottom: 1px solid rgba(0, 0, 0, .06);
+          }
+
+          .brand-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            padding: .35rem .75rem;
+            border-radius: 999px;
+            background: rgba(225, 37, 27, .10);
+            border: 1px solid rgba(225, 37, 27, .20);
+            color: #7a0f0a;
+            font-weight: 600;
+            font-size: .85rem;
+          }
+
+          .brand-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--brand-red);
+            box-shadow: 0 0 0 3px rgba(225, 37, 27, .18);
+          }
+
+          /* Buttons */
+          .btn-brand {
+            background: var(--brand-red);
+            border-color: var(--brand-red);
+            border-radius: 12px;
+            font-weight: 700;
+            color: #fff !important;
+            /* FIX 1: white text */
+          }
+
+          .btn-brand:hover,
+          .btn-brand:focus {
+            background: #fff;
+            /* FIX 1: white on hover */
+            border-color: var(--brand-red);
+            color: var(--brand-red) !important;
+          }
+
+          .btn-outline-brand {
+            border-color: rgba(225, 37, 27, .35);
+            color: var(--brand-red);
+            border-radius: 12px;
+            font-weight: 700;
+          }
+
+          .btn-outline-brand:hover {
+            background: rgba(225, 37, 27, .08);
+            border-color: rgba(225, 37, 27, .55);
+            color: var(--brand-red);
+          }
+
+          .tiny-muted {
+            color: rgba(0, 0, 0, .60);
+            font-size: .92rem;
+          }
+
+          /* FIX 2: Align Apply button across cards */
+          .vacancy-card .card-body {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .vacancy-cta {
+            margin-top: auto;
+          }
+
+          /* pushes CTA row to bottom */
+
+          /* FIX 3: Accordion "weird" background + outline */
+          .accordion-item {
+            background: transparent;
+          }
+
+          .accordion-button {
+            background: transparent !important;
+            border: 0 !important;
+            box-shadow: none !important;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .accordion-button:not(.collapsed) {
+            color: #5b0b08;
+            background: transparent !important;
+            /* remove the grey background */
+            box-shadow: none !important;
+          }
+
+          .accordion-button:focus {
+            outline: none !important;
+            box-shadow: none !important;
+            /* remove focus ring */
+          }
+
+          .accordion-button::after {
+            opacity: .65;
+          }
+
+          .accordion-body {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+          }
+        </style>
+
+        <section class="vacancies-section py-5" id="vacancies">
+          <div class="container">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-3 mb-4">
+              <div>
+                <div class="d-inline-flex align-items-center gap-2 mb-2">
+                  <span class="badge badge-deadline rounded-pill px-3 py-2">
+                    Deadline: <strong>February 10th</strong>
+                  </span>
+                </div>
+                <h2 class="vacancies-title fw-bold mb-1">Join Our Family!</h2>
+                <p class="tiny-muted mb-0">Become part of Comium, the telecom pioneer in The Gambia for over a decade, with a growing family of experts, as well as an expanding presence of shops and centers all around the country.</p>
+              </div>
+
+
+            </div>
+
+            <div class="row g-4">
+              <!-- ========== ComCach ========== -->
+              <div class="col-12">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="brand-pill"><span class="brand-dot"></span>ComCach</span>
+                </div>
+              </div>
+
+              <!-- Business Development Specialist -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Business Development Specialist</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-bd">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="bd-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-resp" aria-expanded="false" aria-controls="bd-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="bd-resp" class="accordion-collapse collapse" aria-labelledby="bd-k" data-bs-parent="#acc-bd">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Identify and secure high-impact partnerships (banks, utilities, and large corporate entities).</li>
+                              <li>Develop and execute a market entry strategy for untapped regions and demographics.</li>
+                              <li>Analyze competitor offerings to ensure ComCach remains the preferred wallet solution.</li>
+                              <li>Negotiate commercial terms and lead the onboarding of B2B partners.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="bd-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-req" aria-expanded="false" aria-controls="bd-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="bd-req" class="accordion-collapse collapse" aria-labelledby="bd-r" data-bs-parent="#acc-bd">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Strong networking skills.</li>
+                              <li>3–5 years in FinTech/Banking BD.</li>
+                              <li>Proven track record of hitting aggressive growth targets.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Business%20Development%20Specialist%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Business%20Development%20Specialist%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sales & Marketing Specialist -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Sales &amp; Marketing Specialist</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-sm">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-resp" aria-expanded="false" aria-controls="sm-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="sm-resp" class="accordion-collapse collapse" aria-labelledby="sm-k" data-bs-parent="#acc-sm">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Lead the “boots-on-the-ground” effort to sign up new merchants to the ComCach ecosystem.</li>
+                              <li>Develop marketing collateral and localized campaigns to drive merchant brand visibility.</li>
+                              <li>Train merchants on how to use the ComCach system effectively.</li>
+                              <li>Monitor merchant transaction volumes and implement retention strategies.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-req" aria-expanded="false" aria-controls="sm-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="sm-req" class="accordion-collapse collapse" aria-labelledby="sm-r" data-bs-parent="#acc-sm">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Excellent sales pitch skills.</li>
+                              <li>Experience in merchant acquiring or FMCG sales.</li>
+                              <li>High mobility.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Sales%20%26%20Marketing%20Specialist%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Sales%20%26%20Marketing%20Specialist%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Operations Specialist – Settlement & Reconciliation -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Operations Specialist – Settlement &amp; Reconciliation</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-ops">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="ops-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ops-resp" aria-expanded="false" aria-controls="ops-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="ops-resp" class="accordion-collapse collapse" aria-labelledby="ops-k" data-bs-parent="#acc-ops">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Perform daily reconciliation between the ComCach core system, bank statements, and partner ledgers.</li>
+                              <li>Ensure timely settlement of funds to merchants and partner institutions.</li>
+                              <li>Investigate and resolve transaction discrepancies or failed payments immediately.</li>
+                              <li>Optimize automated reconciliation workflows to reduce manual errors.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="ops-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ops-req" aria-expanded="false" aria-controls="ops-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="ops-req" class="accordion-collapse collapse" aria-labelledby="ops-r" data-bs-parent="#acc-ops">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>High attention to detail.</li>
+                              <li>Proficiency in Excel/SQL.</li>
+                              <li>Experience in payment processing operations.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Operations%20Specialist%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Operations%20Specialist%20%E2%80%93%20Settlement%20%26%20Reconciliation%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Senior Internal Audit & Compliance Officer -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Senior Internal Audit &amp; Compliance Officer</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-audit">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="audit-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#audit-resp" aria-expanded="false" aria-controls="audit-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="audit-resp" class="accordion-collapse collapse" aria-labelledby="audit-k" data-bs-parent="#acc-audit">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Act as the primary liaison with Central Bank auditors and regulatory bodies.</li>
+                              <li>Review and update AML (Anti-Money Laundering) and KYC (Know Your Customer) protocols.</li>
+                              <li>Conduct periodic internal audits of all departments to mitigate operational risk.</li>
+                              <li>Prepare and submit mandatory regulatory reports on time.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="audit-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#audit-req" aria-expanded="false" aria-controls="audit-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="audit-req" class="accordion-collapse collapse" aria-labelledby="audit-r" data-bs-parent="#acc-audit">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Deep knowledge of local financial regulations.</li>
+                              <li>CIA/CAMS certification preferred.</li>
+                              <li>5+ years in audit/compliance.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Senior%20Internal%20Audit%20%26%20Compliance%20Officer%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Senior%20Internal%20Audit%20%26%20Compliance%20Officer%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Direct Sales Agents (only responsibilities) -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Direct Sales Agents</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-dsa">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="dsa-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dsa-resp" aria-expanded="false" aria-controls="dsa-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="dsa-resp" class="accordion-collapse collapse" aria-labelledby="dsa-k" data-bs-parent="#acc-dsa">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Register new users on the ComCach app in high-traffic areas (markets, bus stations, etc.).</li>
+                              <li>Verify user documentation for KYC compliance during the onboarding process.</li>
+                              <li>Meet or exceed daily and weekly account opening targets.</li>
+                              <li>Educate new users on how to “Cash-In” and use wallet features.</li>
+                            </ul>
+                            <div class="mt-2 tiny-muted">
+                              <strong>Compensation:</strong> Base monthly stipend + tiered commission per active account acquired.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Direct%20Sales%20Agent%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Direct%20Sales%20Agent%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Customer Service Agents -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Customer Service Agents</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-cs">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="cs-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs-resp" aria-expanded="false" aria-controls="cs-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="cs-resp" class="accordion-collapse collapse" aria-labelledby="cs-k" data-bs-parent="#acc-cs">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Provide multi-channel support (Phone, WhatsApp, Social Media) for ComCach users.</li>
+                              <li>Assist users with password resets, failed transactions, and account upgrades.</li>
+                              <li>Document common pain points to provide feedback to the Product team.</li>
+                              <li>Maintain a high First Call Resolution (FCR) rate.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="cs-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs-req" aria-expanded="false" aria-controls="cs-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="cs-req" class="accordion-collapse collapse" aria-labelledby="cs-r" data-bs-parent="#acc-cs">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Patient communication style.</li>
+                              <li>Fluency in local languages.</li>
+                              <li>Ability to handle high-pressure situations.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Customer%20Service%20Agent%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Customer%20Service%20Agent%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Finance Officer -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Finance Officer</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-fin">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="fin-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fin-resp" aria-expanded="false" aria-controls="fin-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="fin-resp" class="accordion-collapse collapse" aria-labelledby="fin-k" data-bs-parent="#acc-fin">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Process accounts payable/receivable and manage the general ledger.</li>
+                              <li>Assist in the preparation of monthly, quarterly, and annual financial statements.</li>
+                              <li>Manage payroll and tax filings in accordance with local laws.</li>
+                              <li>Monitor budget variances and report them to management.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="fin-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fin-req" aria-expanded="false" aria-controls="fin-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="fin-req" class="accordion-collapse collapse" aria-labelledby="fin-r" data-bs-parent="#acc-fin">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Degree in Accounting/Finance.</li>
+                              <li>Experience with ERP software.</li>
+                              <li>High integrity.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Finance%20Officer%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Finance%20Officer%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- IT System Officer -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">IT System Officer</h5>
+                    <div class="tiny-muted">ComCach</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-it">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="it-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#it-resp" aria-expanded="false" aria-controls="it-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="it-resp" class="accordion-collapse collapse" aria-labelledby="it-k" data-bs-parent="#acc-it">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Monitor server health and database performance to prevent downtime.</li>
+                              <li>Implement and maintain cybersecurity protocols to protect user data.</li>
+                              <li>Manage hardware, networking, and internal software tools for all staff.</li>
+                              <li>Execute the Disaster Recovery Plan (DRP) and regular system backups.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="it-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#it-req" aria-expanded="false" aria-controls="it-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="it-req" class="accordion-collapse collapse" aria-labelledby="it-r" data-bs-parent="#acc-it">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Experience in Linux/Cloud environments.</li>
+                              <li>Networking certifications.</li>
+                              <li>Proactive approach to system maintenance.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20IT%20System%20Officer%20(ComCach)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20IT%20System%20Officer%20(ComCach).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ========== FASTNET ========== -->
+              <div class="col-12 mt-5">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="brand-pill"><span class="brand-dot"></span>FASTNET</span>
+                </div>
+              </div>
+
+              <!-- Fastnet Sales Agent (ISP) -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Fastnet Sales Agent (ISP)</h5>
+                    <div class="tiny-muted">FASTNET</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-fastnet">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="fn-k">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fn-resp" aria-expanded="false" aria-controls="fn-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+                        <div id="fn-resp" class="accordion-collapse collapse" aria-labelledby="fn-k" data-bs-parent="#acc-fastnet">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>Close sales deals and achieve sales targets.</li>
+                              <li>Build strong relationships with existing customers.</li>
+                              <li>Identify upselling and cross-selling opportunities.</li>
+                              <li>Resolve customer complaints and issues promptly.</li>
+                              <li>Address customer queries and concerns.</li>
+                              <li>Analyse sales data to identify trends and opportunities.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="fn-r">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fn-req" aria-expanded="false" aria-controls="fn-req">
+                            Requirements
+                          </button>
+                        </h2>
+                        <div id="fn-req" class="accordion-collapse collapse" aria-labelledby="fn-r" data-bs-parent="#acc-fastnet">
+                          <div class="accordion-body">
+                            <ul class="mb-0 ps-3">
+                              <li>2 years’ experience in Sales role.</li>
+                              <li>Excellent communication skills and selling techniques.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm?subject=Application%20-%20Fastnet%20Sales%20Agent%20(ISP)&body=Hello%20Comium%20HR%2C%0A%0AI%20would%20like%20to%20apply%20for%20Fastnet%20Sales%20Agent%20(ISP).%0A%0APlease%20find%20my%20CV%20attached.%0A%0ARegards%2C%0A%5BYour%20Name%5D">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Note -->
+              <div class="col-12">
+                <div class="mt-2 tiny-muted">
+                  Please email your CV to <a class="text-decoration-none" style="color:var(--brand-red)" href="mailto:career@comium.gm">career@comium.gm</a>
+                  before <strong>February 10th</strong>.
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+
         <!-- End Values Section -->
         <section class="carrousl">
           <div id="carousel-afric" class="slick-track">

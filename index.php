@@ -117,12 +117,12 @@
 
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b1.webp" alt="" />
+              <a href="/comcach"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b1.webp" alt="" /></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b2.webp" alt="" />
+              <a href="/fastnet"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b2.webp" alt="" /></a>
             </div>
           </div>
           <!-- <div class="swiper-slide">
@@ -373,7 +373,7 @@
                     <span>
                       <img src="assets/img/ic5.svg?v2" alt="connectivity" />
                     </span>
-                    <h3>Comcach</h3>
+                    <h3>ComCach</h3>
                     <p class="cnx-mobile">Are you ready to seize convenience and unlock endless financial opportunities? Look no further than ComCach, the revolutionary digital finance platform brought to you by Comium.
                     </p>
                     <p class="cnx-random">Are you ready to seize convenience and unlock endless financial opportunities? Look no further than ComCach, the revolutionary digital finance platform brought to you by Comium.</p>
@@ -463,7 +463,7 @@
         </style>
         <!-- End About Section -->
         <!-- ======= Values Section ======= -->
-        <!-- <section id="careers" class="values careers features">
+        <section id="careers" class="values careers features">
           <div class="container feature-icons" data-aos="fade-up">
             <header class="section-header">
               <p style="    margin: 10px 0 0 0;
@@ -520,7 +520,7 @@
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <style>
           :root {
@@ -715,22 +715,20 @@
                     Deadline: <strong>February 10th</strong>
                   </span>
                 </div>
-                <h2 class="vacancies-title fw-bold mb-1">Join Our Family!</h2>
-                <p class="tiny-muted mb-0">Become part of Comium, the telecom pioneer in The Gambia for over a decade, with a growing family of experts, as well as an expanding presence of shops and centers all around the country.</p>
+                <h2 class="vacancies-title fw-bold mb-1">Join Comium</h2>
+                <p class="tiny-muted mb-0">The Gambia’s pioneering telecom for nearly about decades — and grow with a team of experts delivering cutting-edge services powered by the latest technologies.</p>
               </div>
 
 
             </div>
 
             <div class="row g-4">
-              <!-- ========== ComCach ========== -->
               <div class="col-12">
                 <div class="d-flex align-items-center gap-2 mb-2">
                   <span class="brand-pill"><span class="brand-dot"></span>COMCACH</span>
                 </div>
               </div>
 
-              <!-- Business Development Specialist -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -786,7 +784,6 @@
                 </div>
               </div>
 
-              <!-- Sales & Marketing Specialist -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -842,7 +839,6 @@
                 </div>
               </div>
 
-              <!-- Operations Specialist – Settlement & Reconciliation -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -898,7 +894,6 @@
                 </div>
               </div>
 
-              <!-- Senior Internal Audit & Compliance Officer -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -954,7 +949,6 @@
                 </div>
               </div>
 
-              <!-- Direct Sales Agents (only responsibilities) -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -996,7 +990,6 @@
                 </div>
               </div>
 
-              <!-- Customer Service Agents -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -1052,7 +1045,6 @@
                 </div>
               </div>
 
-              <!-- Finance Officer -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -1108,7 +1100,6 @@
                 </div>
               </div>
 
-              <!-- IT System Officer -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
@@ -1164,14 +1155,12 @@
                 </div>
               </div>
 
-              <!-- ========== FASTNET ========== -->
               <div class="col-12 mt-5">
                 <div class="d-flex align-items-center gap-2 mb-2">
                   <span class="brand-pill"><span class="brand-dot"></span>FASTNET</span>
                 </div>
               </div>
 
-              <!-- Fastnet Sales Agent (ISP) -->
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">

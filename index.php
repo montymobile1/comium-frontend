@@ -585,6 +585,25 @@
             box-shadow: 0 0 0 3px rgba(225, 37, 27, .18);
           }
 
+          /* Live indicator pulse */
+          @keyframes livePulse {
+            0% {
+              box-shadow: 0 0 0 0 rgba(225, 37, 27, 0.7);
+            }
+
+            70% {
+              box-shadow: 0 0 0 6px rgba(225, 37, 27, 0);
+            }
+
+            100% {
+              box-shadow: 0 0 0 0 rgba(225, 37, 27, 0);
+            }
+          }
+
+          .brand-dot {
+            animation: livePulse 1s infinite;
+          }
+
           /* Buttons */
           .btn-brand {
             background: var(--brand-red);
@@ -615,6 +634,7 @@
             border-color: rgba(225, 37, 27, .55);
             color: var(--brand-red);
           }
+
 
           .tiny-muted {
             color: rgba(0, 0, 0, .60);
@@ -668,6 +688,22 @@
             padding-right: 0;
             padding-top: 0;
           }
+
+          /* Force button to bottom in all cards */
+          .vacancy-card {
+            height: 100%;
+          }
+
+          .vacancy-card .card-body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-between;
+          }
+
+          .vacancy-cta {
+            margin-top: auto;
+          }
         </style>
 
         <section class="vacancies-section py-5" id="vacancies">
@@ -690,7 +726,7 @@
               <!-- ========== ComCach ========== -->
               <div class="col-12">
                 <div class="d-flex align-items-center gap-2 mb-2">
-                  <span class="brand-pill"><span class="brand-dot"></span>ComCach</span>
+                  <span class="brand-pill"><span class="brand-dot"></span>COMCACH</span>
                 </div>
               </div>
 

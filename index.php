@@ -452,6 +452,24 @@
                 </a>
 
               </div>
+
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/international-direct-dialing" style="color:black;">
+                  <div class="service-box red ">
+                    <span>
+                      <img src="assets/img/ic2.svg?v3" alt="Internet Provider" />
+                    </span>
+                    <h3>International Direct Dialing</h3>
+                    <p class="isp-mobile"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)<br>
+                    </p>
+                    <p class="isp-overlay"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)</p>
+                    <p class="isp-random"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)
+                    </p>
+
+                  </div>
+                </a>
+
+              </div>
             </div>
           </div>
         </section>

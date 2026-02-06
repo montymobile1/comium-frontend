@@ -36,6 +36,23 @@ RewriteRule ^international-roaming/?$ /international-roaming.php [L]
 RewriteRule ^roaming-bundle/([a-zA-Z0-9_-]+)$ /roaming-bundle.php?country=$1 [L]
 
 
+
+
+
+
+RewriteRule ^international-direct-dialing$ /international-direct-dialing.php [L]
+
+# Redirect query string ?filter=something to clean URL /international-direct-dialing/something
+RewriteCond %{THE_REQUEST} \s/international-direct-dialing\.php\?filter=([^\s&]+) [NC]
+RewriteRule ^ /international-direct-dialing/%1? [R=301,L]
+
+# Rewrite clean URL /international-direct-dialing/something to internal PHP file with query
+RewriteRule ^international-direct-dialing/([^/]+)/?$ /international-direct-dialing.php?filter=$1 [QSA,L]
+
+# Rewrite clean URL /international-direct-dialing to international-direct-dialing.php (no filter)
+RewriteRule ^international-direct-dialing/?$ /international-direct-dialing.php [L]
+
+
 RewriteRule ^landing$ /landing.html [L]
 
 RewriteRule ^comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone$ /comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone.php [L]

@@ -71,11 +71,31 @@
                             </svg>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link hover-careers" href="/international-roaming">International Roaming <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <li class="nav-item dropdown ip-dropdown">
+                        <a
+                            class="nav-link ip-trigger"
+                            href="#"
+                            id="internationalProductsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>International Products</span>
+
+                            <!-- Chevron -->
+                            <svg class="ip-chevron" style="visibility: visible;" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M6 9l6 6 6-6"
+                                    stroke="currentColor"
+                                    stroke-width="2.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </a>
+
+                        <ul class="dropdown-menu ip-menu" aria-labelledby="internationalProductsDropdown">
+                            <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-direct-dialing">International Direct Dialing</a></li>
+                            <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-roaming">International Roaming</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a class="nav-link scrollto hover-careers" href="/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
@@ -740,6 +760,137 @@
 
                             ],
 
+                        ]
+                    ];
+
+                    $bundles[] = [
+                        'name' => 'Speed Mega Bundles',
+                        'id' => 'speed',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Speed',
+                            'Price',
+                            'Bundle',
+                            'Validity',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
+                            [
+                                'title' => '15 Days Speed Mega Bundles',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D650',
+                                        'how_to_subscribe' => '50GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D900',
+                                        'how_to_subscribe' => '100GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,100',
+                                        'how_to_subscribe' => '150GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '4 Mbps',
+                                        'validity' => 'D1,500',
+                                        'how_to_subscribe' => '250GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '5 Mbps',
+                                        'validity' => 'D2,500',
+                                        'how_to_subscribe' => '600GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '7 Mbps',
+                                        'validity' => 'D3,200',
+                                        'how_to_subscribe' => '800GB',
+                                        'on_net' => '15 Days',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => '30 Days Speed Mega Bundles',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D750',
+                                        'how_to_subscribe' => '50GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,200',
+                                        'how_to_subscribe' => '100GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,500',
+                                        'how_to_subscribe' => '150GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '4 Mbps',
+                                        'validity' => 'D2,000',
+                                        'how_to_subscribe' => '250GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '5 Mbps',
+                                        'validity' => 'D3,600',
+                                        'how_to_subscribe' => '600GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '7 Mbps',
+                                        'validity' => 'D4,000',
+                                        'how_to_subscribe' => '800GB',
+                                        'on_net' => '30 Days',
+                                    ],
+
+                                ],
+
+                            ]
+                        ]
+                    ];
+
+                    $bundles[] = [
+                        'name' => 'Seddo Bundle',
+                        'id' => 'seddo',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Data',
+                            'Minutes',
+                            'SMS',
+                            'USSD',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
+                            [
+                                'title' => 'Seddo Bundle',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '12GB',
+                                        'validity' => '1,200 On-net',
+                                        'how_to_subscribe' => '1,200 On-net',
+                                        'on_net' => '*606*8#',
+                                    ],
+                                ],
+
+                            ]
                         ]
                     ];
 

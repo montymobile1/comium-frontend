@@ -70,11 +70,31 @@
                             </svg>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link hover-careers" href="/international-roaming">International Roaming <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <li class="nav-item dropdown ip-dropdown">
+                        <a
+                            class="nav-link ip-trigger"
+                            href="#"
+                            id="internationalProductsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>International Products</span>
+
+                            <!-- Chevron -->
+                            <svg class="ip-chevron" style="visibility: visible;" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M6 9l6 6 6-6"
+                                    stroke="currentColor"
+                                    stroke-width="2.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </a>
+
+                        <ul class="dropdown-menu ip-menu" aria-labelledby="internationalProductsDropdown">
+                            <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-direct-dialing">International Direct Dialing</a></li>
+                            <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-roaming">International Roaming</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a class="nav-link scrollto hover-careers" href="/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +169,7 @@
                 <div class="tab-content international-roaming-content">
                     <div class="tab-pane fade <?= $filter == 'overview' ? 'show active' : '' ?> " id="overview">
                         <h3 class="red-title">Overview</h3>
-                        <p>Enjoy <strong>cheap international calls from Gambia</strong> with <strong> Gambia International Direct Dialing (IDD) </strong> — the smart and affordable way to stay connected globally.</p>
+                        <p>Enjoy <strong> international calls from Gambia</strong> with <strong> Gambia International Direct Dialing (IDD) </strong> — the smart and affordable way to stay connected globally.</p>
                         <p>With <strong>COMIUM IDD in Gambia</strong>, you can make direct international calls to <strong>A-to-Z international destinations worldwide</strong>, reaching <strong>mobile and landline numbers at very low PAYG rates</strong>. No apps, no internet, no extra dialing codes — just simple international calling from your COMIUM line.</p>
                         <p><strong>COMIUM Gambia</strong> is committed to <strong>transparent tariff charging</strong>. All <strong>IDD rates in Gambia</strong> are clearly displayed, so there are <strong>no hidden charges or surprise deductions</strong>. What you see is exactly what you pay.</p>
                         <p>Whether you’re calling <strong>Africa, Europe, Asia, the USA, or the Middle East from Gambia</strong>, COMIUM IDD delivers <strong>reliable call quality, wide global coverage</strong>, and some of the <strong>cheapest international calling rates in The Gambia</strong>.</p>

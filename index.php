@@ -70,11 +70,31 @@
               </svg>
             </a>
           </li>
-          <li>
-            <a class="nav-link hover-careers" href="/international-roaming">International Roaming <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <li class="nav-item dropdown ip-dropdown">
+            <a
+              class="nav-link ip-trigger"
+              href="#"
+              id="internationalProductsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span>International Products</span>
+
+              <!-- Chevron -->
+              <svg class="ip-chevron" style="visibility: visible;" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 9l6 6 6-6"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
             </a>
+
+            <ul class="dropdown-menu ip-menu" aria-labelledby="internationalProductsDropdown">
+              <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-direct-dialing">International Direct Dialing</a></li>
+              <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-roaming">International Roaming</a></li>
+            </ul>
           </li>
           <li>
             <a class="nav-link scrollto hover-careers" href="#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
@@ -457,13 +477,31 @@
                 <a href="/international-direct-dialing" style="color:black;">
                   <div class="service-box red ">
                     <span>
-                      <img src="assets/img/ic2.svg?v3" alt="Internet Provider" />
+                      <img src="assets/img/idd.png" alt="Internet Provider" />
                     </span>
                     <h3>International Direct Dialing</h3>
-                    <p class="isp-mobile"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)<br>
+                    <p class="isp-mobile"> Enjoy international calls from Gambia with Gambia International Direct Dialing (IDD)<br>
                     </p>
-                    <p class="isp-overlay"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)</p>
-                    <p class="isp-random"> Enjoy cheap international calls from Gambia with Gambia International Direct Dialing (IDD)
+                    <p class="isp-overlay"> Enjoy international calls from Gambia with Gambia International Direct Dialing (IDD)</p>
+                    <p class="isp-random"> Enjoy international calls from Gambia with Gambia International Direct Dialing (IDD)
+                    </p>
+
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/international-roaming" style="color:black;">
+                  <div class="service-box red ">
+                    <span>
+                      <img src="assets/img/roaming.gif" alt="Internet Provider" />
+                    </span>
+                    <h3>International Roaming</h3>
+                    <p class="isp-mobile"> Stay effortlessly connected, no matter where your travels take you with COMIUM Gambia’s international roaming SIM Card.<br>
+                    </p>
+                    <p class="isp-overlay"> Stay effortlessly connected, no matter where your travels take you with COMIUM Gambia’s international roaming SIM Card.</p>
+                    <p class="isp-random"> Stay effortlessly connected, no matter where your travels take you with COMIUM Gambia’s international roaming SIM Card.
                     </p>
 
                   </div>

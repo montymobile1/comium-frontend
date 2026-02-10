@@ -269,7 +269,7 @@
 
     <!-- 7. Call Time (24 hour) -->
     <div class="form-group">
-        <label for="callTime">Call Time (24 hour)</label>
+        <label for="callTime">Call Time</label>
         <input type="time" id="callTime" name="callTime">
         <div class="error" id="error-callTime"></div>
     </div>

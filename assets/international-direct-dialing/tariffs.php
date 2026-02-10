@@ -4077,7 +4077,7 @@ function slugify($text)
                 <div class="table-row hidden row-<?= $normalizedVal1 ?>">
                     <?php foreach ($row as $key2 => $col): ?>
                         <div class="cell">
-                            <span class="<?= $key2 == 'val9' ? 'red-text font-bold' : '' ?>"><?= $col ?></span>
+                            <span class="<?= $key2 == 'val4' ? 'red-text font-bold' : '' ?>"><?= $col ?></span>
                         </div>
                     <?php endforeach; ?>
 

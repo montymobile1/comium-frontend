@@ -477,7 +477,7 @@
                 <a href="/international-direct-dialing" style="color:black;">
                   <div class="service-box red ">
                     <span>
-                      <img src="assets/img/idd.png" alt="Internet Provider" />
+                      <img style="overflow: visible;" src="assets/images/idd.webp" alt="Internet Provider" />
                     </span>
                     <h3>International Direct Dialing</h3>
                     <p class="isp-mobile"> Enjoy international calls from Gambia with Gambia International Direct Dialing (IDD)<br>
@@ -495,7 +495,7 @@
                 <a href="/international-roaming" style="color:black;">
                   <div class="service-box red ">
                     <span>
-                      <img src="assets/img/roaming.gif" alt="Internet Provider" />
+                      <img style="overflow: visible;" src="assets/images/ir.webp" alt="Internet Provider" />
                     </span>
                     <h3>International Roaming</h3>
                     <p class="isp-mobile"> Stay effortlessly connected, no matter where your travels take you with COMIUM Gambia’s international roaming SIM Card.<br>

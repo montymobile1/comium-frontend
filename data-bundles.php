@@ -870,6 +870,7 @@
                         'name' => 'Seddo Bundle',
                         'id' => 'seddo',
                         'icon' => '/assets/images/bundles/sakan.svg',
+                        'note' => '* Seddo Bundle subscribers can share their data, minutes and SMS with up to four people!',
                         'head' => [
                             'Data',
                             'Minutes',
@@ -970,10 +971,15 @@
                                                         </div>
                                                     <?php endforeach; ?>
                                                 </div>
+
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
+
                                 </div>
+                                <?php if (isset($bundle['note'])): ?>
+                                    <h6 style="font-size:14px;" class="px-3 pb-3"><?= $bundle['note'] ?></h6>
+                                <?php endif ?>
                             </div>
                         <?php endforeach; ?>
 

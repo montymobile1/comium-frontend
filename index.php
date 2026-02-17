@@ -339,10 +339,10 @@
               " class="padding-here"> Offering mobile and fixed wireless telecom services in the Gambia since 2007</p>
             </header>
             <div class="row gx-0">
-              <div class="col-lg-9 col-md-9 col-sm-12 d-flex flex-column justify-content-center">
+              <div class="col-lg-8 col-md-8 col-sm-12 d-flex flex-column justify-content-center">
                 <div class="content">
                   <!-- <h3>Who We Are</h3> -->
-                  <p class="padd-right">Human connections have always been at the center of our reality, and so new platforms and tools are created using innovative technologies in order to serve that goal. We, at Comium work in favor of making communications ever convenient for our subscribers, by offering cutting-edge telecom services using the latest technologies and discoveries in the field. As the world keeps evolving and new trends and discoveries are happening by the minute, we promise to stay up to the beat by upgrading our services and boosting our pace to offer you the best telecom services in The Gambia, backed by our professional team of experts. <br />
+                  <p class="">Human connections have always been at the center of our reality, and so new platforms and tools are created using innovative technologies in order to serve that goal. We, at Comium work in favor of making communications ever convenient for our subscribers, by offering cutting-edge telecom services using the latest technologies and discoveries in the field. As the world keeps evolving and new trends and discoveries are happening by the minute, we promise to stay up to the beat by upgrading our services and boosting our pace to offer you the best telecom services in The Gambia, backed by our professional team of experts. <br />
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#comium-history" data-ticket-type="standard-access" style=" margin-top:25px;      font-size: 14px;
     font-weight: 700;
     color: #e1251b;
@@ -354,22 +354,31 @@
                   </p>
                 </div>
                 <div class="row gx-0 py-1">
-                  <div class="col-lg-6 d-flex flex-column justify-content-center mission-mobile-border">
+                  <div class="col-lg-12 d-flex flex-column justify-content-center mission-mobile-border">
                     <div class="content">
                       <h3>Mission</h3>
-                      <p> To increase customer satisfaction and gain their loyalty and trust by providing our subscribers with top services and wide coverage all around The Gambia.</p>
+                      <p>
+                      <ul>
+                        <li>Deliver reliable network and customer experience.</li>
+                        <li>Provide simple and affordable products for everyone.</li>
+                        <li>Maintain nationwide network coverage.</li>
+                        <li>Continue investing in cutting-edge technologies to enhance connectivity and digital services.</li>
+                        <li>Foster a culture of integrity, innovation, and continuous improvement.</li>
+                        <li>Create sustainable value for customers, employees, shareholders, and communities.</li>
+                      </ul>
+                      </p>
                     </div>
                   </div>
-                  <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <div class="content">
+                  <div class="col-lg-12 d-flex mt-1">
+                    <div class=" content">
                       <h3>Vision</h3>
-                      <p> To enhance our range of offerings with state-of-the-art technologies in order to expand the services and use telecom in service of human communication. </p>
+                      <p>To be The Gambia’s preferred provider of mobile and digital telecom services, connecting people to what matters most through seamless, reliable, and life enhancing experiences. </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3 d-flex align-items-center">
-                <img src="assets/img/fam.webp?v1" loading="lazy" alt="offerings" width="500" />
+              <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                <img src="assets/img/fam.webp?v1" class="w-100 object-cover ms-auto" loading="lazy" alt="offerings" />
               </div>
             </div>
           </div>

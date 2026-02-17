@@ -353,6 +353,109 @@
                     ];
 
                     $bundles[] = [
+                        'name' => 'Speed Mega Bundles',
+                        'id' => 'speed',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Speed',
+                            'Price',
+                            'Bundle',
+                            'Validity',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
+                            [
+                                'title' => '15 Days Speed Mega Bundles',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D650',
+                                        'how_to_subscribe' => '50GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D900',
+                                        'how_to_subscribe' => '100GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,100',
+                                        'how_to_subscribe' => '150GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '4 Mbps',
+                                        'validity' => 'D1,500',
+                                        'how_to_subscribe' => '250GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '5 Mbps',
+                                        'validity' => 'D2,500',
+                                        'how_to_subscribe' => '600GB',
+                                        'on_net' => '15 Days',
+                                    ],
+                                    [
+                                        'price' => '7 Mbps',
+                                        'validity' => 'D3,200',
+                                        'how_to_subscribe' => '800GB',
+                                        'on_net' => '15 Days',
+                                    ],
+
+                                ],
+
+                            ],
+                            [
+                                'title' => '30 Days Speed Mega Bundles',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D750',
+                                        'how_to_subscribe' => '50GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,200',
+                                        'how_to_subscribe' => '100GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '3 Mbps',
+                                        'validity' => 'D1,500',
+                                        'how_to_subscribe' => '150GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '4 Mbps',
+                                        'validity' => 'D2,000',
+                                        'how_to_subscribe' => '250GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '5 Mbps',
+                                        'validity' => 'D3,600',
+                                        'how_to_subscribe' => '600GB',
+                                        'on_net' => '30 Days',
+                                    ],
+                                    [
+                                        'price' => '7 Mbps',
+                                        'validity' => 'D4,000',
+                                        'how_to_subscribe' => '800GB',
+                                        'on_net' => '30 Days',
+                                    ],
+
+                                ],
+
+                            ]
+                        ]
+                    ];
+
+                    $bundles[] = [
                         'name' => 'Mega Bundles',
                         'icon' => '/assets/images/bundles/sakan.svg',
                         'head' => [
@@ -763,108 +866,7 @@
                         ]
                     ];
 
-                    $bundles[] = [
-                        'name' => 'Speed Mega Bundles',
-                        'id' => 'speed',
-                        'icon' => '/assets/images/bundles/sakan.svg',
-                        'head' => [
-                            'Speed',
-                            'Price',
-                            'Bundle',
-                            'Validity',
-                        ],
-                        'width' => 'ws-25',
-                        'bundle' => [
-                            [
-                                'title' => '15 Days Speed Mega Bundles',
-                                'subtitle' => '',
-                                'items' => [
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D650',
-                                        'how_to_subscribe' => '50GB',
-                                        'on_net' => '15 Days',
-                                    ],
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D900',
-                                        'how_to_subscribe' => '100GB',
-                                        'on_net' => '15 Days',
-                                    ],
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D1,100',
-                                        'how_to_subscribe' => '150GB',
-                                        'on_net' => '15 Days',
-                                    ],
-                                    [
-                                        'price' => '4 Mbps',
-                                        'validity' => 'D1,500',
-                                        'how_to_subscribe' => '250GB',
-                                        'on_net' => '15 Days',
-                                    ],
-                                    [
-                                        'price' => '5 Mbps',
-                                        'validity' => 'D2,500',
-                                        'how_to_subscribe' => '600GB',
-                                        'on_net' => '15 Days',
-                                    ],
-                                    [
-                                        'price' => '7 Mbps',
-                                        'validity' => 'D3,200',
-                                        'how_to_subscribe' => '800GB',
-                                        'on_net' => '15 Days',
-                                    ],
 
-                                ],
-
-                            ],
-                            [
-                                'title' => '30 Days Speed Mega Bundles',
-                                'subtitle' => '',
-                                'items' => [
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D750',
-                                        'how_to_subscribe' => '50GB',
-                                        'on_net' => '30 Days',
-                                    ],
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D1,200',
-                                        'how_to_subscribe' => '100GB',
-                                        'on_net' => '30 Days',
-                                    ],
-                                    [
-                                        'price' => '3 Mbps',
-                                        'validity' => 'D1,500',
-                                        'how_to_subscribe' => '150GB',
-                                        'on_net' => '30 Days',
-                                    ],
-                                    [
-                                        'price' => '4 Mbps',
-                                        'validity' => 'D2,000',
-                                        'how_to_subscribe' => '250GB',
-                                        'on_net' => '30 Days',
-                                    ],
-                                    [
-                                        'price' => '5 Mbps',
-                                        'validity' => 'D3,600',
-                                        'how_to_subscribe' => '600GB',
-                                        'on_net' => '30 Days',
-                                    ],
-                                    [
-                                        'price' => '7 Mbps',
-                                        'validity' => 'D4,000',
-                                        'how_to_subscribe' => '800GB',
-                                        'on_net' => '30 Days',
-                                    ],
-
-                                ],
-
-                            ]
-                        ]
-                    ];
 
                     $bundles[] = [
                         'name' => 'Seddo Bundle',

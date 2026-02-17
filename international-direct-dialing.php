@@ -118,14 +118,14 @@
 
     <div class="roaming-banner">
         <img src='/assets/international-direct-dialing/banner.webp' />
-        <div class="container">
+        <!-- <div class="container">
             <div class="half-width">
                 <h1>ROAM FREELY, <br /> CONNECT GLOBALLY.</h1>
                 <p>Stay connected worldwide with seamless calls, texts, and data
                     wherever you go.</p>
             </div>
 
-        </div>
+        </div> -->
     </div>
     <div class="bc">
         <div class="container">

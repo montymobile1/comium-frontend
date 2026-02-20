@@ -805,6 +805,39 @@
                   <div class="card-body">
                     <div class="accordion" id="acc-bd">
                       <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="bd-k0">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-resp-0" aria-expanded="false" aria-controls="bd-resp">
+                            Description
+                          </button>
+                        </h2>
+                        <div id="bd-resp-0" class="accordion-collapse collapse" aria-labelledby="bd-k0" data-bs-parent="#acc-bd0">
+                          <div class="accordion-body">
+                            <p>Call Center Agents are the voice of Comium, delivering fast, friendly, and reliable support to our customers. The role involves handling service inquiries, providing accurate information, promoting Comium products and services, and ensuring every customer interaction builds trust and loyalty.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">Call Center Agent</h5>
+                    <div class="tiny-muted">Comium</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-bd">
+                      <div class="accordion-item border-0">
                         <h2 class="accordion-header" id="bd-k">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-resp-1" aria-expanded="false" aria-controls="bd-resp">
                             Description
@@ -861,7 +894,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 mt-5">
+              <!-- <div class="col-12 mt-5">
                 <div class="d-flex align-items-center gap-2 mb-2">
                   <span class="brand-pill"><span class="brand-dot"></span>COMCACH</span>
                 </div>
@@ -1355,13 +1388,12 @@
                 </div>
               </div>
 
-              <!-- Note -->
               <div class="col-12">
                 <div class="mt-2 tiny-muted">
                   Please email your CV to <a class="text-decoration-none" style="color:var(--brand-red)" href="mailto:career@comium.gm">career@comium.gm</a>
                   before <strong>February 10th</strong>.
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </section>

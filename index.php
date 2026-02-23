@@ -780,9 +780,9 @@
             <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-3 mb-4">
               <div>
                 <div class="d-inline-flex align-items-center gap-2 mb-2">
-                  <span class="badge badge-deadline rounded-pill px-3 py-2">
+                  <!-- <span class="badge badge-deadline rounded-pill px-3 py-2">
                     Deadline: <strong>February 10th</strong>
-                  </span>
+                  </span> -->
                 </div>
                 <h2 class="vacancies-title fw-bold mb-1">Join Comium</h2>
                 <p class="tiny-muted mb-0">The Gambia’s pioneering telecom for nearly about decades — and grow with a team of experts delivering cutting-edge services powered by the latest technologies.</p>

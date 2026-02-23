@@ -769,6 +769,10 @@
           .vacancy-cta {
             margin-top: auto;
           }
+
+          .accordion-item {
+            margin-bottom: 10px;
+          }
         </style>
 
         <section class="vacancies-section py-5" id="vacancies">
@@ -795,7 +799,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4">
+              <div class="col-12 col-md-6 col-lg-6">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
                     <h5 class="fw-bold mb-1">Call Center Agent</h5>
@@ -828,7 +832,9 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4">
+
+
+              <div class="col-12 col-md-6 col-lg-6">
                 <div class="card vacancy-card">
                   <div class="vacancy-topbar p-3">
                     <h5 class="fw-bold mb-1">Customer care agent</h5>
@@ -846,6 +852,161 @@
                         <div id="sm-resp-2" class="accordion-collapse collapse" aria-labelledby="sm-k" data-bs-parent="#acc-sm">
                           <div class="accordion-body">
                             <p>Customer Care Agents play a key role in creating exceptional customer experiences at Comium. They handle customer inquiries and complaints with professionalism and empathy, promote Comium services, and work to ensure long-term customer satisfaction.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 vacancy-cta">
+                      <a class="btn btn-brand w-100 py-2"
+                        href="mailto:career@comium.gm">
+                        Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="card vacancy-card">
+                  <div class="vacancy-topbar p-3">
+                    <h5 class="fw-bold mb-1">IREG Roaming Team Leader</h5>
+                    <div class="tiny-muted">Comium</div>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="accordion" id="acc-sm-0">
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-k-0">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-resp-2-0" aria-expanded="false" aria-controls="sm-resp">
+                            Role Summary
+                          </button>
+                        </h2>
+
+                        <div id="sm-resp-2-0" class="accordion-collapse collapse" aria-labelledby="sm-k-0" data-bs-parent="#acc-sm-0">
+                          <div class="accordion-body">
+                            <p>
+                              The <strong>IREG Roaming Team Leader</strong> is responsible for end-to-end ownership of IREG operations,
+                              including IREG testing, troubleshooting, Huawei core configuration validation, and 24/7 operational
+                              support for inbound and outbound roaming services.
+                            </p>
+                            <p>
+                              The role includes hands-on technical responsibilities as well as L1 team leadership, ensuring service
+                              stability and compliance with GSMA IREG standards.
+                              This is a purely technical and operational role, with no commercial or contractual responsibilities.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-k-1">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-resp-2-1" aria-expanded="false" aria-controls="sm-resp">
+                            Key Responsibilities
+                          </button>
+                        </h2>
+
+                        <div id="sm-resp-2-1" class="accordion-collapse collapse" aria-labelledby="sm-k-1" data-bs-parent="#acc-sm-0">
+                          <div class="accordion-body">
+                            <h6>IREG Operations &amp; Technical Ownership</h6>
+                            <ul>
+                              <li>Take full responsibility for IREG operations for Comium (Inbound &amp; Outbound)</li>
+                              <li>Conduct and support IREG testing and troubleshooting with roaming partners</li>
+                              <li>Prepare and maintain IREG project technical documentation, test plans, and sign-off reports</li>
+                              <li>Perform post-launch quality testing on a regular basis to ensure service stability</li>
+                            </ul>
+
+                            <h6>Core Network &amp; Huawei Expertise (Plus)</h6>
+                            <ul>
+                              <li>Actively monitor and analyze SS7 and Diameter traces</li>
+                              <li>
+                                Perform configuration validation and troubleshooting on Huawei core network elements, including:
+                                <ul>
+                                  <li>HLR / HSS / UDM</li>
+                                  <li>STP / DRA</li>
+                                </ul>
+                              </li>
+                              <li>Validate roaming behavior related to authentication, routing, APN resolution, and session establishment</li>
+                            </ul>
+
+                            <h6>24/7 Operations &amp; Team Leadership</h6>
+                            <ul>
+                              <li>Lead and manage the L1 IREG support team on a 24/7 basis</li>
+                              <li>Act as the primary escalation point (L2) for roaming-related incidents</li>
+                              <li>Coordinate with internal technical teams and external partners to ensure rapid issue resolution</li>
+                            </ul>
+
+                            <h6>Monitoring &amp; Performance Management</h6>
+                            <ul>
+                              <li>Monitor daily signaling usage, IPX bandwidth consumption, and roaming traffic patterns</li>
+                              <li>Monitor voice interconnect routes related to roaming and sponsored eSIM traffic</li>
+                            </ul>
+
+                            <h6>Cross-Team Coordination</h6>
+                            <ul>
+                              <li>Coordinate closely with internal teams and external roaming partners based on priority plans</li>
+                              <li>Maintain updated contact matrices for fast escalation and incident handling</li>
+                              <li>
+                                Work closely with the IT / OCS team / Commercial Roaming Manager to understand and support
+                                implementation of CAMEL logic requirements
+                              </li>
+                            </ul>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-k-2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-resp-2-2" aria-expanded="false" aria-controls="sm-resp">
+                            Technical Scope
+                          </button>
+                        </h2>
+
+                        <div id="sm-resp-2-2" class="accordion-collapse collapse" aria-labelledby="sm-k-2" data-bs-parent="#acc-sm-0">
+                          <div class="accordion-body">
+                            <h6>IREG Domains</h6>
+                            <ul>
+                              <li>Voice (where applicable)</li>
+                              <li>SMS</li>
+                              <li>Data</li>
+                            </ul>
+
+                            <h6>Protocols &amp; Interfaces</h6>
+                            <ul>
+                              <li>SS7 (MAP)</li>
+                              <li>Diameter (S6a, Gy)</li>
+                              <li>GTP-C / GTP-U (operational validation level)</li>
+                            </ul>
+
+                            <h6>Tools &amp; Systems</h6>
+                            <ul>
+                              <li>Wireshark / tcpdump</li>
+                              <li>Huawei core network management tools</li>
+                              <li>Signaling and IPX monitoring platforms</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="sm-k-3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sm-resp-2-3" aria-expanded="false" aria-controls="sm-resp">
+                            Required Profile
+                          </button>
+                        </h2>
+
+                        <div id="sm-resp-2-3" class="accordion-collapse collapse" aria-labelledby="sm-k-3" data-bs-parent="#acc-sm-0">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>Strong hands-on experience with IREG testing and roaming operations</li>
+                              <li>Proven experience with Huawei core network environments</li>
+                              <li>Solid understanding of international roaming signaling flows</li>
+                              <li>Ability to analyze and troubleshoot SS7 / Diameter traces</li>
+                              <li>Experience leading or coordinating 24/7 operational support teams</li>
+                              <li>Experience working with IPX providers, roaming hubs, or sponsored IMSI environments</li>
+                            </ul>
                           </div>
                         </div>
                       </div>

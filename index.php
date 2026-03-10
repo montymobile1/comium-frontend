@@ -785,7 +785,7 @@
                   </span> -->
                 </div>
                 <h2 class="vacancies-title fw-bold mb-1">Join Comium</h2>
-                <p class="tiny-muted mb-0">The Gambia’s pioneering telecom for nearly about decades — and grow with a team of experts delivering cutting-edge services powered by the latest technologies.</p>
+                <p class="tiny-muted mb-0">The Gambia’s pioneering telecom for nearly two decades and grow with a team of experts delivering cutting-edge services powered by the latest technologies.</p>
               </div>
 
 

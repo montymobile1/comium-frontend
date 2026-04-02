@@ -653,6 +653,10 @@
                 <i class="bi bi-chevron-right"></i>
                 <a href="#contact">Contact</a>
               </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="/press-release">Press Release</a>
+              </li>
             </ul>
           </div>
           <div class="col-lg-2 col-6 footer-links"></div>

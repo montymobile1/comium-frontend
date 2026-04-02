@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - International Roaming</title>
+    <title>Comium - Press Release</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>
@@ -45,7 +45,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
+    <style>
+        .article-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -115,202 +121,37 @@
             <!-- .navbar -->
         </div>
     </header>
-    <?php
-    $country = $_GET['country'] ?? null;
-    $data = [];
-    $data['saudi-arabia'] = [
-        'image' => 'saudi-bg.webp',
-        'flag' => 'saudi.webp',
-        'title' => 'Saudi Arabia',
-        'marquee' => false,
-        'description' => 'Dial *966# and follow the instruction',
-        'plans' => [
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*1#',
-                'quota' => '100 MB',
-                'days' => 'For 3 Days',
-                'price' => 'D 49'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*2#',
-                'quota' => '500 MB',
-                'days' => 'For 15 Days',
-                'price' => 'D 99'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*3#',
-                'quota' => '1 GB',
-                'days' => 'For 15 Days',
-                'price' => 'D 199'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*4#',
-                'quota' => '1 GB (15 Min + 15 SMS)',
-                'days' => 'For 15 Days',
-                'price' => 'D 999'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*5#',
-                'quota' => '3 GB (30 Min + 30 SMS)',
-                'days' => 'For 30 Days',
-                'price' => 'D 1,999'
-            ],
 
-        ],
-        'extra' => '<h5>Offer Business Rules</h5><ul><li>Offer is for Prepaid customers</li><li>Voice Charging is 60Sec and data charging is 10KB pulse
-                    </li><li>Voice Minutes are valid for: Incoming Calls. Call Back to Gambia & Call to Local (KSA)</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#</li><li>After consumption of resources user will charge as per PAYG rate</li><li>Multiple subscription will allow; but customer will get maximum expiry as per the bundle/bucket</li></ul>'
-    ];
-
-    $data['senegal'] = [
-        'image' => 'senegal-bg.webp',
-        'flag' => 'senegal.webp',
-        'title' => 'Senegal',
-        'description' => 'Before traveling to Senegal, please dial *221# to activate free roaming service for Senegal',
-        'marquee' => true,
-        'plans' => [
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*221*2#',
-                'quota' => '100 MB',
-                'days' => 'For 3 Days',
-                'price' => 'D 49'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*221*3#',
-                'quota' => '500 MB',
-                'days' => 'For 15 Days',
-                'price' => 'D 99'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*221*4#',
-                'quota' => '1 GB',
-                'days' => 'For 15 Days',
-                'price' => 'D 199'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*221*5#',
-                'quota' => '1 GB (15 Min + 15 SMS)',
-                'days' => 'For 15 Days',
-                'price' => 'D 999'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*221*6#',
-                'quota' => '3 GB (30 Min + 30 SMS)',
-                'days' => 'For 30 Days',
-                'price' => 'D 1,999'
-            ],
-
-        ],
-        'extra' => '<h5>Terms & Conditions</h5><ul><li>This offer is valid for Prepaid customers only.</li><li>Bundle Free Minutes are only valid for Incoming Call, Call in Senegal & Call Back to Gambia.</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#.</li><li>Multiple subscription of bundle is allowed; but expiry of bundle will be as per the latest bundle.</li><li>Above mentioned bundle prices are tax 22.50% included</li><li>Above bundle and bucket are only valid for Senegal preferred operator.</li></ul>'
-    ];
-    $current = $data[$country];
-    ?>
-    <section class="mt-5">
+    <section class="my-5">
         <div class="container">
-            <p><a href="/international-roaming/roaming-bundles">Roaming bundles</a> > <span><?= $current['title'] ?><span></p>
-        </div>
-        <div class="custom-container">
-            <div class="bundle-container">
-                <div class="bundle-image">
-                    <img src="assets/international-roaming/<?= $current['image'] ?>" />
-                </div>
-                <div class="bundle-information">
-                    <a style="margin-bottom:30px;display:block;color:black" href="/international-roaming/roaming-bundles">
-                        <svg style="margin-top:-1px;margin-right:3px;" width="15px" height="15px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-                            <style type="text/css">
-                                .st0 {
-                                    fill: #000000;
-                                }
-                            </style>
+            <h1 class="mb-4 fs-3 font-bold text-center">Press Release</h1>
 
-                            <g id="Layer_1" />
+            <div class="row g-4">
 
-                            <g id="Layer_2">
-
-                                <g>
-
-                                    <path class="st0" d="M217,129.88c-6.25-6.25-16.38-6.25-22.63,0L79.61,244.64c-0.39,0.39-0.76,0.8-1.11,1.23    c-0.11,0.13-0.2,0.27-0.31,0.41c-0.21,0.28-0.42,0.55-0.62,0.84c-0.14,0.21-0.26,0.43-0.39,0.64c-0.14,0.23-0.28,0.46-0.41,0.7    c-0.13,0.24-0.24,0.48-0.35,0.73c-0.11,0.23-0.22,0.45-0.32,0.68c-0.11,0.26-0.19,0.52-0.28,0.78c-0.08,0.23-0.17,0.46-0.24,0.69    c-0.09,0.29-0.15,0.58-0.22,0.86c-0.05,0.22-0.11,0.43-0.16,0.65c-0.08,0.38-0.13,0.76-0.17,1.14c-0.02,0.14-0.04,0.27-0.06,0.41    c-0.11,1.07-0.11,2.15,0,3.22c0.01,0.06,0.02,0.12,0.03,0.18c0.05,0.46,0.12,0.92,0.21,1.37c0.03,0.13,0.07,0.26,0.1,0.39    c0.09,0.38,0.18,0.76,0.29,1.13c0.04,0.13,0.09,0.26,0.14,0.4c0.12,0.36,0.25,0.73,0.4,1.09c0.05,0.11,0.1,0.21,0.15,0.32    c0.17,0.37,0.34,0.74,0.53,1.1c0.04,0.07,0.09,0.14,0.13,0.21c0.21,0.38,0.44,0.76,0.68,1.13c0.02,0.03,0.04,0.06,0.06,0.09    c0.55,0.81,1.18,1.58,1.89,2.29l114.81,114.81c3.12,3.12,7.22,4.69,11.31,4.69s8.19-1.56,11.31-4.69c6.25-6.25,6.25-16.38,0-22.63    l-87.5-87.5h291.62c8.84,0,16-7.16,16-16s-7.16-16-16-16H129.51L217,152.5C223.25,146.26,223.25,136.13,217,129.88z" />
-
-                                </g>
-
-                            </g>
-
-                        </svg>Back</a>
-                    <div class="flag-container">
-                        <img src="assets/international-roaming/<?= $current['flag'] ?>" />
-                        <div>
-                            <h4><?= $current['title'] ?></h4>
-                            <?php if ($current['marquee']): ?>
-                                <marquee>
-                                    <h5 class="red-text"><?= $current['description'] ?> ★ <?= $current['description'] ?> ★ <?= $current['description'] ?> ★ <?= $current['description'] ?> ★ <?= $current['description'] ?></h5>
-                                </marquee>
-                            <?php else: ?>
-                                <h5><?= $current['description'] ?></h5>
-                            <?php endif; ?>
-
-                            </marquee>
+                <!-- Article 1 -->
+                <div class="col-md-4">
+                    <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
+                        <div class="card article-card h-100">
+                            <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Comium Completes Ramadan CSR Initiative
+                                </h5>
+                                <p class="card-text">
+                                    Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="plans d-none d-sm-flex">
-                        <?php $plans = $current['plans']; ?>
-                        <?php foreach ($plans as $plan): ?>
-                            <div class="plan">
-                                <div class="plan-info">
-                                    <div class="plan-white">
-                                        <p class="red-text"><?= $plan['activation'] ?></p>
-                                        <h4><?= $plan['number'] ?></h4>
-                                    </div>
-                                    <div class="plan-extra">
-                                        <h3><?= $plan['quota'] ?></h3>
-                                        <p><?= $plan['days'] ?></p>
-                                    </div>
-                                </div>
-                                <div class="plan-price">
-                                    <h6 class="red-text"><?= $plan['price'] ?></h6>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-
-                    <div class="plans only-mobile d-flex d-sm-none">
-                        <?php $plans = $current['plans']; ?>
-                        <?php foreach ($plans as $plan): ?>
-                            <div class="plan">
-                                <div class="plan-extra">
-                                    <h3><?= $plan['quota'] ?></h3>
-                                    <p><?= $plan['days'] ?></p>
-                                </div>
-                                <div>
-                                    <div class="plan-white">
-                                        <p class="red-text"><?= $plan['activation'] ?></p>
-                                        <h4><?= $plan['number'] ?></h4>
-                                    </div>
-                                    <div class="plan-price">
-                                        <h6 class="red-text"><?= $plan['price'] ?></h6>
-                                    </div>
-
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                    <div class="extra-info">
-                        <?= $current['extra'] ?>
-                    </div>
+                    </a>
                 </div>
+
+
+
             </div>
+
         </div>
     </section>
-
 
     <footer id="footer" class="footer">
 
@@ -401,7 +242,7 @@
 
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/international-roaming/select2.min.js"></script>
-    <script src="assets/international-roaming/script.js"></script>
+    <script src="assets/international-roaming/script.js?v=1"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJHHRG8NCG"></script>
     <script>

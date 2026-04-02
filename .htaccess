@@ -23,6 +23,8 @@ RewriteRule ^vote$ /vote.php [L]
 
 RewriteRule ^international-roaming$ /international-roaming.php [L]
 
+RewriteRule ^press-release$ /press-release.php [L]
+
 # Redirect query string ?filter=something to clean URL /international-roaming/something
 RewriteCond %{THE_REQUEST} \s/international-roaming\.php\?filter=([^\s&]+) [NC]
 RewriteRule ^ /international-roaming/%1? [R=301,L]
@@ -54,6 +56,7 @@ RewriteRule ^international-direct-dialing/?$ /international-direct-dialing.php [
 
 
 RewriteRule ^landing$ /landing.html [L]
+
 
 RewriteRule ^comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary$ /comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary.php [L]
 

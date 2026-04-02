@@ -1535,7 +1535,7 @@
           </style>
           <div class="container">
 
-            <h2 class="mb-4 text-center">Articles</h2>
+            <h2 class="mb-4 text-center">Press Release</h2>
 
             <div class="row g-4">
 
@@ -1557,7 +1557,10 @@
               </div>
 
             </div>
-
+            <!-- VIEW MORE BUTTON (no JS) -->
+            <div class="mx-auto px-4 w-100 text-center mt-5">
+              <a href="/press-release" class="more btn btn-brand font-light">View more</a>
+            </div>
           </div>
         </section>
 
@@ -2538,6 +2541,10 @@
                   <li>
                     <i class="bi bi-chevron-right"></i>
                     <a href="#contact">Contact</a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="/press-release">Press Release</a>
                   </li>
                 </ul>
               </div>

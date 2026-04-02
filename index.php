@@ -1527,6 +1527,12 @@
         </section>
 
         <section class="py-5">
+          <style>
+            .article-card img {
+              height: 200px;
+              object-fit: cover;
+            }
+          </style>
           <div class="container">
 
             <h2 class="mb-4 text-center">Articles</h2>

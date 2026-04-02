@@ -55,6 +55,9 @@ RewriteRule ^international-direct-dialing/?$ /international-direct-dialing.php [
 
 RewriteRule ^landing$ /landing.html [L]
 
+RewriteRule ^comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary$ /comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary.php [L]
+
+
 RewriteRule ^comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone$ /comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone.php [L]
 
 RewriteRule ^staging$ /index-staging.php [L]

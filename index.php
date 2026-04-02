@@ -1526,6 +1526,34 @@
           </div>
         </section>
 
+        <section class="py-5">
+          <div class="container">
+
+            <h2 class="mb-4 text-center">Articles</h2>
+
+            <div class="row g-4">
+
+              <!-- Article 1 -->
+              <div class="col-md-4">
+                <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
+                  <div class="card article-card h-100">
+                    <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        COMIUM COMPLETES RAMADAN CSR INITIATIVE, DONATES D1 MILLION TO EACH BENEFICIARY
+                      </h5>
+                      <p class="card-text">
+                        Banjul, The Gambia - Comium has successfully concluded its Ramadan corporate social responsibility initiative...
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
 
         <!-- End Values Section -->
         <section class="carrousl">
@@ -2440,6 +2468,8 @@
             </div>
           </div>
         </section>
+
+
       </main>
       <!-- End #main -->
       <!-- ======= Footer ======= -->

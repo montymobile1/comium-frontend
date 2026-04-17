@@ -132,12 +132,12 @@
                 <!-- Article 1 -->
                 <div class="col-md-4">
                     <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100">
+                        <div class="card article-card h-100 blog-thumb">
                             <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
                             <div class="card-body">
-                                <h5 class="card-title">
+                                <h3 class="card-title">
                                     COMIUM COMPLETES RAMADAN CSR INITIATIVE
-                                </h5>
+                                </h3>
                                 <p class="card-text">
                                     Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
                                 </p>
@@ -147,20 +147,20 @@
                 </div>
 
                 <div class="col-md-4">
-                <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
-                  <div class="card article-card h-100">
-                    <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA
-                      </h5>
-                      <p class="card-text">
-                        Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </div>
+                    <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
+                        <div class="card article-card h-100 blog-thumb">
+                            <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA
+                                </h3>
+                                <p class="card-text">
+                                    Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
             </div>
 

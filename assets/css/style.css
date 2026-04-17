@@ -1830,12 +1830,17 @@ section {
   opacity: 0.9;
 }
 
-.blog-content h2{
-  font-size:24px;
-  font-weight:bold;
+.blog-content h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.blog-content h3{
-  font-size:20px;
-  font-weight:bold;
+.blog-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-thumb h3 {
+  font-size: 22px;
+  font-weight: bold;
 }

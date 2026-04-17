@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - Press Release</title>
+    <title>Comium - International Roaming</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>
@@ -46,12 +46,22 @@
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
-    <style>
-        .article-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
+    <meta property="og:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
+    <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
+    <meta property="og:site_name" content="Comium" />
+
+    <!-- Optional but recommended -->
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter (X) fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
+    <meta name="twitter:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta name="twitter:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
 </head>
 
 <body>
@@ -123,47 +133,116 @@
     </header>
 
     <section class="my-5">
-        <div class="container">
+        <div class="container blog-content">
+            <h1 class="font-bold fs-1">NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA</h1>
+            <img src="/assets/images/no-village-left-behind.webp"  class="my-4 w-100"/>
+            <p>
+            Reliable mobile service has become as essential as electricity and clean water,
+            underpinning education, commerce, health, and civic life. Yet many rural Gambian
+            communities have continued to sit on the wrong side of the digital divide.
+            </p>
 
-            <h1 class="mb-4 fs-3 font-bold text-center">Press Release</h1>
+            <p>
+            At Comium, we hold that geography or population size must not determine one’s right
+            to communicate. This conviction inspires our initiative:
+            <strong>No Village Is Left Behind.</strong>
+            </p>
 
-            <div class="row g-4">
+            <h2>Expanding to 40 New Communities in Eight Weeks</h2>
 
-                <!-- Article 1 -->
-                <div class="col-md-4">
-                    <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100">
-                            <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    COMIUM COMPLETES RAMADAN CSR INITIATIVE
-                                </h5>
-                                <p class="card-text">
-                                    Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <p>
+            In the past eight weeks, Comium has brought service to 40 villages that, until now,
+            have gone unconnected. These new sites, distributed across the country’s varied
+            regions, are now live on Comium’s network.
+            </p>
 
-                <div class="col-md-4">
-                <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
-                  <div class="card article-card h-100">
-                    <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA
-                      </h5>
-                      <p class="card-text">
-                        Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </div>
+            <h3>The rollout was made possible by:</h3>
+            <ul>
+            <li>
+                <strong>Upgraded Infrastructure:</strong> Construction of new towers coupled with
+                refurbishment of existing sites, delivering stronger, more consistent coverage.
+            </li>
+            <li>
+                <strong>Dedicated Teams:</strong> Engineers and local field experts collaborating
+                with residents to design and activate the network in record time.
+            </li>
+            <li>
+                <strong>Village-Centric Planning:</strong> Targeting pockets of the country that
+                have been underserved by previous expansions, whose residents have waited longest
+                for access.
+            </li>
+            </ul>
 
-            </div>
+            <h2>Why It Matters</h2>
 
+            <p>
+            The expansion being initiated transcends mere network footprint; it translates into
+            substantive improvements for daily living:
+            </p>
+
+            <ul>
+            <li>
+                <strong>Education:</strong> Learners in newly reached settlements can engage with
+                e-learning platforms, peruse digital libraries, and attend remote classes
+                previously beyond their reach.
+            </li>
+            <li>
+                <strong>Healthcare:</strong> Health facilities and community workers can synchronize
+                treatment, retrieve clinical guidelines, and converse with urban hospitals
+                instantaneously.
+            </li>
+            <li>
+                <strong>Business and economy:</strong> Micro- and small enterprises can leverage
+                mobile finance, enhance their visibility through digital marketing, and trade on
+                platforms previously inaccessible.
+            </li>
+            <li>
+                <strong>Social inclusion:</strong> Households can sustain contact with expatriated
+                relatives, preserving family, cultural, and community bonds.
+            </li>
+            </ul>
+
+            <h2>Context in The Gambia’s Telecom Sector</h2>
+
+            <p>
+            The rollout arrives at a decisive juncture. The recent PURA directives have
+            recalibrated tariffs and clarified market entry, prompting consumers to seek
+            affirmation that operators maintain a focus on public service amidst the adjustments.
+            </p>
+
+            <p>
+            Comium’s communication is unequivocal: as the sector evolves, our central obligation
+            is to interconnect communities. The deployment of infrastructure to 40 new service
+            sectors attests to that resolve.
+            </p>
+
+            <h2>Living Our Brand Promise</h2>
+
+            <p>
+            The principle guiding our actions—<strong>No Village Is Left Behind</strong>—functions
+            as more than a marketing phrase. It embodies a resolute commitment to developing a
+            network that is equitable, reachable, and enabling for every Gambian.
+            </p>
+
+            <p>
+            This latest growth further embodies our enduring guiding principle that when we are
+            <strong>Better Together</strong>, we achieve our highest purpose. Connectivity takes
+            on its truest value when it unites individuals, transcends barriers, and opens
+            equitable avenues for everyone.
+            </p>
+
+            <h2>Future Directions</h2>
+
+            <p>
+            The forty newly activated coverage areas represent an initial step. Comium is already
+            designing subsequent rollouts for the coming months, driven by our ambition to
+            guarantee that every corner of The Gambia, from the busiest urban center to the most
+            distant hamlet, enjoys dependable mobile service.
+            </p>
+
+            <p>
+            <a href="https://www.instagram.com/p/DNQaJSWId0j/" target="_blank" rel="noopener noreferrer">Watch the video on Instagram</a>
+            </p>
         </div>
     </section>
 

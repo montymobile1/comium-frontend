@@ -1537,7 +1537,7 @@
 
             <h2 class="mb-4 text-center">Press Release</h2>
 
-            <div class="row g-4">
+            <div class="row g-4 d-flex justify-content-center">
 
               <!-- Article 1 -->
               <div class="col-md-4">
@@ -1550,6 +1550,22 @@
                       </h5>
                       <p class="card-text">
                         Banjul, The Gambia - Comium has successfully concluded its Ramadan corporate social responsibility initiative...
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
+                  <div class="card article-card h-100">
+                    <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA
+                      </h5>
+                      <p class="card-text">
+                        Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
                       </p>
                     </div>
                   </div>

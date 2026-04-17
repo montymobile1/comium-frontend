@@ -63,4 +63,6 @@ RewriteRule ^comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-
 
 RewriteRule ^comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone$ /comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone.php [L]
 
+RewriteRule ^no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia$ /no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia.php [L]
+
 RewriteRule ^staging$ /index-staging.php [L]

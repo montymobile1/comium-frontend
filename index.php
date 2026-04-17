@@ -1539,7 +1539,6 @@
 
             <div class="row g-4 d-flex justify-content-center">
 
-              <!-- Article 1 -->
               <div class="col-md-4">
                 <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
                   <div class="card article-card h-100">
@@ -1573,7 +1572,6 @@
               </div>
 
             </div>
-            <!-- VIEW MORE BUTTON (no JS) -->
             <div class="mx-auto px-4 w-100 text-center mt-5">
               <a href="/press-release" class="more btn btn-brand font-light">View more</a>
             </div>
@@ -1688,7 +1686,7 @@
                     <div class="info-box">
                       <i class="bi bi-telephone"></i>
                       <h3>Number</h3>
-                      <p> Tel: <a href="tel:+220 6 601601 " style="color:#444444" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#444444'">+220 6 601601 </a>
+                      <p> Tel: <a href="tel:+220 6 601111" style="color:#444444" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#444444'">+220 6 601111</a>
                         <br />Fax: <a href="tel:+220 6 601602" style="color:#444444" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#444444'">+220 6 601602 </a>
                       </p>
                     </div>

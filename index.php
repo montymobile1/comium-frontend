@@ -134,7 +134,11 @@
       <!-- start slider -->
       <div class="swiper promo-swiper fix-mobile-banner" style="margin-top:calc(0vh + 75px)">
         <div class="swiper-wrapper">
-
+          <div class="swiper-slide">
+            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/comium-app-banner.webp" alt="" />
+            </div>
+          </div>
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <a href="/comcach"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b1.webp" alt="" /></a>

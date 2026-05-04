@@ -521,6 +521,31 @@
                 </a>
 
               </div>
+
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/useful-codes" style="color:black;">
+                  <div class="service-box red">
+                    <span>
+                      <img style="overflow: visible;" src="assets/images/ir.webp" alt="Useful Codes" />
+                    </span>
+
+                    <h3>Useful Codes</h3>
+
+                    <p class="isp-mobile">
+                      Quickly access Comium’s most important service codes for checking your balance, data usage, own number, and transferring credit.
+                      <br>
+                    </p>
+
+                    <p class="isp-overlay">
+                      Quickly access Comium’s most important service codes for checking your balance, data usage, own number, and transferring credit.
+                    </p>
+
+                    <p class="isp-random">
+                      Quickly access Comium’s most important service codes for checking your balance, data usage, own number, and transferring credit.
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -2170,6 +2195,56 @@
 
                       <div class="mt-auto d-flex gap-2">
                         <a href="https://www.google.com/maps/search/?api=1&query=13.590182,-16.422057" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bundung -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bundung</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-3">Bundung</h5>
+
+                      <div class="hours-box">
+                        <ul>
+                          <li><span class="day">Mon–Thu</span><span class="time">8:30am to 5:00pm</span></li>
+                          <li><span class="day">Friday</span><span class="time">8:30am to 5:00pm</span></li>
+                          <li><span class="day">Saturday</span><span class="time">9:00am to 1:00pm</span></li>
+                          <li><span class="day">Sunday</span><span class="time">Closed</span></li>
+                        </ul>
+                      </div>
+
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.424394,-16.679543" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                        <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bwiam -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="card h-100 border-0 shadow-sm position-relative">
+                    <span class="badge bg-white text-dark border position-absolute top-0 end-0 m-3">Bwiam</span>
+                    <div class="card-body d-flex flex-column pt-4">
+                      <h6 class="text-uppercase text-muted mb-1">Showroom</h6>
+                      <h5 class="card-title mb-3">Bwiam</h5>
+
+                      <div class="hours-box">
+                        <ul>
+                          <li><span class="day">Mon–Thu</span><span class="time">8:30am to 5:00pm</span></li>
+                          <li><span class="day">Friday</span><span class="time">8:30am to 5:00pm</span></li>
+                          <li><span class="day">Saturday</span><span class="time">9:00am to 1:00pm</span></li>
+                          <li><span class="day">Sunday</span><span class="time">Closed</span></li>
+                        </ul>
+                      </div>
+
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://www.google.com/maps/search/?api=1&query=13.230045,-16.077962" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
                         <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
                       </div>
                     </div>

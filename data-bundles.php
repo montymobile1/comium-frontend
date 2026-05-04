@@ -897,6 +897,47 @@
                         ]
                     ];
 
+
+                    $bundles[] = [
+                        'name' => 'Social Media Bundles',
+                        'id' => 'social-media',
+                        'icon' => '/assets/images/bundles/sakan.svg',
+                        'head' => [
+                            'Data',
+                            'Price in GMD',
+                            'Validity',
+                            'How To Subscribe',
+                        ],
+                        'width' => 'ws-25',
+                        'bundle' => [
+                            [
+                                'title' => 'Social Media Bundle',
+                                'subtitle' => '',
+                                'items' => [
+                                    [
+                                        'price' => 'D10',
+                                        'data' => '50MB',
+                                        'validity' => '1 Day',
+                                        'how_to_subscribe' => 'Dial *606*5# to subscribe',
+                                    ],
+                                    [
+                                        'price' => 'D40',
+                                        'data' => '400MB',
+                                        'validity' => '1 Day',
+                                        'how_to_subscribe' => 'Dial *606*5# to subscribe',
+                                    ],
+                                    [
+                                        'price' => 'D100',
+                                        'data' => '1.2GB',
+                                        'validity' => '7 Days',
+                                        'how_to_subscribe' => 'Dial *606*5# to subscribe',
+                                    ],
+                                ],
+
+                            ]
+                        ]
+                    ];
+
                     ?>
                     <section class="">
                         <?php foreach ($bundles as $bundle) : ?>

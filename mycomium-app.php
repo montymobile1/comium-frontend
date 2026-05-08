@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - International Roaming</title>
+    <title>Comium - APP</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>

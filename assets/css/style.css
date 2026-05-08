@@ -1844,3 +1844,21 @@ section {
   font-size: 22px;
   font-weight: bold;
 }
+
+.nav-link.standout {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.nav-link.standout:hover {
+  color: white;
+  transform: translateY(-1px);
+}
+
+.nav-link.standout:focus {
+  transform: translateY(-1px);
+  padding: 10px 20px;
+}

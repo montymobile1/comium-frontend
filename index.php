@@ -59,15 +59,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li>
-            <a class="nav-link scrollto hover-careers" href="#about">About <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link scrollto hover-careers" href="/#about">About
             </a>
           </li>
           <li>
-            <a class="nav-link scrollto hover-careers" href="#products">Products & Services <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link scrollto hover-careers" href="/#products">Products & Services
             </a>
           </li>
           <li class="nav-item dropdown ip-dropdown">
@@ -97,16 +93,16 @@
             </ul>
           </li>
           <li>
-            <a class="nav-link scrollto hover-careers" href="#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link scrollto hover-careers" href="/#careers">Careers
             </a>
           </li>
           <li>
           <li>
-            <a class="nav-link scrollto hover-careers" href="#contact">Contact <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link scrollto hover-careers" href="/#contact">Contact
+            </a>
+          </li>
+          <li>
+            <a class="nav-link standout" href="/mycomium-app">MyComium Self-care APP
             </a>
           </li>
         </ul>
@@ -115,7 +111,6 @@
       <!-- .navbar -->
     </div>
   </header>
-  <!-- End Header -->
   </div>
   <style>
     @media (max-width:768px) {
@@ -2853,8 +2848,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-12 text-center">
                 <h4>Customer Service </h4>
-                <p class="padding-here" style="   
-"> We, at Comium offer the best-in-class customer service. Our team of trained professionals is dedicated to you and always ready to assist you, answer all your enquiries, and explain any service or offer you need 24/7. </p>
+                <p class="padding-here" style=""> We, at Comium offer the best-in-class customer service. Our team of trained professionals is dedicated to you and always ready to assist you, answer all your enquiries, and explain any service or offer you need 24/7. </p>
               </div>
               <div class="col-lg-6" style="text-align: center;">
                 <span style="color:#111921;cursor:unset"> Call Comium centers on <a href="tel:111" style="color:#E1251B!important;cursor:pointer!important">111 </a>for free </span>

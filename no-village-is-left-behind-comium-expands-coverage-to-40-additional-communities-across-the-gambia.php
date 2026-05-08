@@ -75,15 +75,11 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="/#about">About <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                        <a class="nav-link scrollto hover-careers" href="/#about">About
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="/#products">Products & Services <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                        <a class="nav-link scrollto hover-careers" href="/#products">Products & Services
                         </a>
                     </li>
                     <li class="nav-item dropdown ip-dropdown">
@@ -113,16 +109,16 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                        <a class="nav-link scrollto hover-careers" href="/#careers">Careers
                         </a>
                     </li>
                     <li>
                     <li>
-                        <a class="nav-link scrollto hover-careers" href="/#contact">Contact <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                        <a class="nav-link scrollto hover-careers" href="/#contact">Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link standout" href="/mycomium-app">MyComium Self-care APP
                         </a>
                     </li>
                 </ul>
@@ -135,113 +131,113 @@
     <section class="my-5">
         <div class="container blog-content">
             <h1 class="font-bold fs-1">NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA</h1>
-            <img src="/assets/images/no-village-left-behind.webp"  class="my-4 w-100"/>
+            <img src="/assets/images/no-village-left-behind.webp" class="my-4 w-100" />
             <p>
-            Reliable mobile service has become as essential as electricity and clean water,
-            underpinning education, commerce, health, and civic life. Yet many rural Gambian
-            communities have continued to sit on the wrong side of the digital divide.
+                Reliable mobile service has become as essential as electricity and clean water,
+                underpinning education, commerce, health, and civic life. Yet many rural Gambian
+                communities have continued to sit on the wrong side of the digital divide.
             </p>
 
             <p>
-            At Comium, we hold that geography or population size must not determine one’s right
-            to communicate. This conviction inspires our initiative:
-            <strong>No Village Is Left Behind.</strong>
+                At Comium, we hold that geography or population size must not determine one’s right
+                to communicate. This conviction inspires our initiative:
+                <strong>No Village Is Left Behind.</strong>
             </p>
 
             <h2>Expanding to 40 New Communities in Eight Weeks</h2>
 
             <p>
-            In the past eight weeks, Comium has brought service to 40 villages that, until now,
-            have gone unconnected. These new sites, distributed across the country’s varied
-            regions, are now live on Comium’s network.
+                In the past eight weeks, Comium has brought service to 40 villages that, until now,
+                have gone unconnected. These new sites, distributed across the country’s varied
+                regions, are now live on Comium’s network.
             </p>
 
             <h3>The rollout was made possible by:</h3>
             <ul>
-            <li>
-                <strong>Upgraded Infrastructure:</strong> Construction of new towers coupled with
-                refurbishment of existing sites, delivering stronger, more consistent coverage.
-            </li>
-            <li>
-                <strong>Dedicated Teams:</strong> Engineers and local field experts collaborating
-                with residents to design and activate the network in record time.
-            </li>
-            <li>
-                <strong>Village-Centric Planning:</strong> Targeting pockets of the country that
-                have been underserved by previous expansions, whose residents have waited longest
-                for access.
-            </li>
+                <li>
+                    <strong>Upgraded Infrastructure:</strong> Construction of new towers coupled with
+                    refurbishment of existing sites, delivering stronger, more consistent coverage.
+                </li>
+                <li>
+                    <strong>Dedicated Teams:</strong> Engineers and local field experts collaborating
+                    with residents to design and activate the network in record time.
+                </li>
+                <li>
+                    <strong>Village-Centric Planning:</strong> Targeting pockets of the country that
+                    have been underserved by previous expansions, whose residents have waited longest
+                    for access.
+                </li>
             </ul>
 
             <h2>Why It Matters</h2>
 
             <p>
-            The expansion being initiated transcends mere network footprint; it translates into
-            substantive improvements for daily living:
+                The expansion being initiated transcends mere network footprint; it translates into
+                substantive improvements for daily living:
             </p>
 
             <ul>
-            <li>
-                <strong>Education:</strong> Learners in newly reached settlements can engage with
-                e-learning platforms, peruse digital libraries, and attend remote classes
-                previously beyond their reach.
-            </li>
-            <li>
-                <strong>Healthcare:</strong> Health facilities and community workers can synchronize
-                treatment, retrieve clinical guidelines, and converse with urban hospitals
-                instantaneously.
-            </li>
-            <li>
-                <strong>Business and economy:</strong> Micro- and small enterprises can leverage
-                mobile finance, enhance their visibility through digital marketing, and trade on
-                platforms previously inaccessible.
-            </li>
-            <li>
-                <strong>Social inclusion:</strong> Households can sustain contact with expatriated
-                relatives, preserving family, cultural, and community bonds.
-            </li>
+                <li>
+                    <strong>Education:</strong> Learners in newly reached settlements can engage with
+                    e-learning platforms, peruse digital libraries, and attend remote classes
+                    previously beyond their reach.
+                </li>
+                <li>
+                    <strong>Healthcare:</strong> Health facilities and community workers can synchronize
+                    treatment, retrieve clinical guidelines, and converse with urban hospitals
+                    instantaneously.
+                </li>
+                <li>
+                    <strong>Business and economy:</strong> Micro- and small enterprises can leverage
+                    mobile finance, enhance their visibility through digital marketing, and trade on
+                    platforms previously inaccessible.
+                </li>
+                <li>
+                    <strong>Social inclusion:</strong> Households can sustain contact with expatriated
+                    relatives, preserving family, cultural, and community bonds.
+                </li>
             </ul>
 
             <h2>Context in The Gambia’s Telecom Sector</h2>
 
             <p>
-            The rollout arrives at a decisive juncture. The recent PURA directives have
-            recalibrated tariffs and clarified market entry, prompting consumers to seek
-            affirmation that operators maintain a focus on public service amidst the adjustments.
+                The rollout arrives at a decisive juncture. The recent PURA directives have
+                recalibrated tariffs and clarified market entry, prompting consumers to seek
+                affirmation that operators maintain a focus on public service amidst the adjustments.
             </p>
 
             <p>
-            Comium’s communication is unequivocal: as the sector evolves, our central obligation
-            is to interconnect communities. The deployment of infrastructure to 40 new service
-            sectors attests to that resolve.
+                Comium’s communication is unequivocal: as the sector evolves, our central obligation
+                is to interconnect communities. The deployment of infrastructure to 40 new service
+                sectors attests to that resolve.
             </p>
 
             <h2>Living Our Brand Promise</h2>
 
             <p>
-            The principle guiding our actions—<strong>No Village Is Left Behind</strong>—functions
-            as more than a marketing phrase. It embodies a resolute commitment to developing a
-            network that is equitable, reachable, and enabling for every Gambian.
+                The principle guiding our actions—<strong>No Village Is Left Behind</strong>—functions
+                as more than a marketing phrase. It embodies a resolute commitment to developing a
+                network that is equitable, reachable, and enabling for every Gambian.
             </p>
 
             <p>
-            This latest growth further embodies our enduring guiding principle that when we are
-            <strong>Better Together</strong>, we achieve our highest purpose. Connectivity takes
-            on its truest value when it unites individuals, transcends barriers, and opens
-            equitable avenues for everyone.
+                This latest growth further embodies our enduring guiding principle that when we are
+                <strong>Better Together</strong>, we achieve our highest purpose. Connectivity takes
+                on its truest value when it unites individuals, transcends barriers, and opens
+                equitable avenues for everyone.
             </p>
 
             <h2>Future Directions</h2>
 
             <p>
-            The forty newly activated coverage areas represent an initial step. Comium is already
-            designing subsequent rollouts for the coming months, driven by our ambition to
-            guarantee that every corner of The Gambia, from the busiest urban center to the most
-            distant hamlet, enjoys dependable mobile service.
+                The forty newly activated coverage areas represent an initial step. Comium is already
+                designing subsequent rollouts for the coming months, driven by our ambition to
+                guarantee that every corner of The Gambia, from the busiest urban center to the most
+                distant hamlet, enjoys dependable mobile service.
             </p>
 
             <p>
-            <a href="https://www.instagram.com/p/DNQaJSWId0j/" target="_blank" rel="noopener noreferrer">Watch the video on Instagram</a>
+                <a href="https://www.instagram.com/p/DNQaJSWId0j/" target="_blank" rel="noopener noreferrer">Watch the video on Instagram</a>
             </p>
         </div>
     </section>

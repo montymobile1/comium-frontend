@@ -59,6 +59,8 @@ RewriteRule ^landing$ /landing.html [L]
 
 RewriteRule ^useful-codes$ /useful-codes.php [L]
 
+RewriteRule ^mycomium-app$ /mycomium-app.php [L]
+
 
 RewriteRule ^comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary$ /comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary.php [L]
 

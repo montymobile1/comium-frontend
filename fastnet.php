@@ -138,40 +138,56 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="/" class="logo d-flex align-items-center">
-        <img src="assets/img/logo-rd.svg" alt="comium" style="height: 74px;padding: 20px 0px;" />
+        <img src="assets/img/logo-rd.svg" alt="comium" style="    height: 74px;padding: 20px 0px;" />
         <!-- <span>FlexStart</span> -->
       </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li>
-            <a class="nav-link hover-careers" href="https://comium.gm/#about">About <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link scrollto hover-careers" href="/#about">About
             </a>
           </li>
           <li>
-            <a class="nav-link hover-careers" href="https://comium.gm/#products">Products & Services <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            <a class="nav-link scrollto hover-careers" href="/#products">Products & Services
+            </a>
+          </li>
+          <li class="nav-item dropdown ip-dropdown">
+            <a
+              class="nav-link ip-trigger"
+              href="#"
+              id="internationalProductsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span>International Products</span>
+
+              <!-- Chevron -->
+              <svg class="ip-chevron" style="visibility: visible;" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 9l6 6 6-6"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
+            </a>
+
+            <ul class="dropdown-menu ip-menu" aria-labelledby="internationalProductsDropdown">
+              <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-direct-dialing">International Direct Dialing</a></li>
+              <li><a class="dropdown-item" style="margin:0;background:none;" href="/international-roaming">International Roaming</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link scrollto hover-careers" href="/#careers">Careers
             </a>
           </li>
           <li>
-            <a class="nav-link hover-careers" href="/international-roaming">International Roaming <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+          <li>
+            <a class="nav-link scrollto hover-careers" href="/#contact">Contact
             </a>
           </li>
           <li>
-            <a class="nav-link hover-careers" href="https://comium.gm/#careers">Careers <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </li>
-          <li>
-          <li>
-            <a class="nav-link hover-careers" href="https://comium.gm/#contact">Contact <svg class="careers-svg" width="19" height="19" viewBox="0 0 19 19" stroke="black" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.125 14.25L11.875 9.5L7.125 4.75" fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+            <a class="nav-link standout" href="/mycomium-app">MyComium Self-care APP
             </a>
           </li>
         </ul>
@@ -180,7 +196,6 @@
       <!-- .navbar -->
     </div>
   </header>
-  <!-- End Header -->
   </div>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

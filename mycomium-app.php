@@ -48,8 +48,8 @@
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
-    <meta property="og:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta property="og:title" content="MyComium Self-Care APP" />
+    <meta property="og:description" content="Everything You Need, Right at Your Fingertips." />
     <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
     <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
     <meta property="og:site_name" content="Comium" />
@@ -59,8 +59,8 @@
 
     <!-- Twitter (X) fallback -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
-    <meta name="twitter:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta name="twitter:title" content="MyComium Self-Care APP" />
+    <meta name="twitter:description" content="Everything You Need, Right at Your Fingertips." />
     <meta name="twitter:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
 </head>
 

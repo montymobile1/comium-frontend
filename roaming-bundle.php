@@ -101,10 +101,10 @@
                         <a class="nav-link scrollto hover-careers" href="/#contact">Contact
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="nav-link standout" href="/mycomium-app">MyComium Self-care APP
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -124,42 +124,28 @@
             [
                 'activation' => 'Activation USSD',
                 'number' => '*966*1*1#',
-                'quota' => '100 MB',
-                'days' => 'For 3 Days',
-                'price' => 'D 49'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*2#',
-                'quota' => '500 MB',
-                'days' => 'For 15 Days',
-                'price' => 'D 99'
-            ],
-            [
-                'activation' => 'Activation USSD',
-                'number' => '*966*1*3#',
-                'quota' => '1 GB',
+                'quota' => '1GB',
                 'days' => 'For 15 Days',
                 'price' => 'D 199'
             ],
             [
                 'activation' => 'Activation USSD',
-                'number' => '*966*1*4#',
-                'quota' => '1 GB (15 Min + 15 SMS)',
-                'days' => 'For 15 Days',
-                'price' => 'D 999'
+                'number' => '*966*1*2#',
+                'quota' => '1GB Data 15 Min & SMS',
+                'days' => 'For 30 Days',
+                'price' => 'D 899'
             ],
             [
                 'activation' => 'Activation USSD',
-                'number' => '*966*1*5#',
-                'quota' => '3 GB (30 Min + 30 SMS)',
-                'days' => 'For 30 Days',
+                'number' => '*966*1*3#',
+                'quota' => '3GB Data 30 Min & SMS ',
+                'days' => 'For 45 Days',
                 'price' => 'D 1,999'
             ],
 
         ],
         'extra' => '<h5>Offer Business Rules</h5><ul><li>Offer is for Prepaid customers</li><li>Voice Charging is 60Sec and data charging is 10KB pulse
-                    </li><li>Voice Minutes are valid for: Incoming Calls. Call Back to Gambia & Call to Local (KSA)</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#</li><li>After consumption of resources user will charge as per PAYG rate</li><li>Multiple subscription will allow; but customer will get maximum expiry as per the bundle/bucket</li></ul>'
+                    </li><li>Voice Minutes are valid for: Incoming Calls. Call Back to Gambia & Call to Local (KSA)</li><li>To use mobile data while roaming, prepaid users should set their handset APN to: <strong>internet</strong></li><li>For Remaining bundle resources inquiry, customer has to dial *101#</li><li>After consumption of resources user will charge as per PAYG rate</li><li>Multiple subscriptions will be allowed; but customers will get maximum expiry as per the bundle/bucket</li></ul>'
     ];
 
     $data['senegal'] = [

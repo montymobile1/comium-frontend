@@ -101,10 +101,10 @@
                         <a class="nav-link scrollto hover-careers" href="/#contact">Contact
                         </a>
                     </li>
-                    <!-- <li>
+                    <li>
                         <a class="nav-link standout" href="/mycomium-app">MyComium Self-care APP
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>

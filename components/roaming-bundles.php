@@ -18,7 +18,7 @@
                         </div>
                         <div>
                             <h4>Saudi Arabia</h4>
-                            <h5>From <strong>49.00</strong> D</h5>
+                            <h5>From <strong>199.00</strong> D</h5>
                         </div>
                     </div>
 

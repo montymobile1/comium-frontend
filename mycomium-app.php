@@ -303,7 +303,7 @@
 
     <div class="py-5 my-3">
         <div class="container">
-            <h2 class="font-bold text-black" style="max-width: 980px;margin:0 auto;">Take full control of your Comium experience with everything you need in one place simple, fast, and convenient.</h2>
+            <h2 class="font-bold text-black" style="max-width: 1200px;margin:0 auto;">Take full control of your Comium experience with everything you need in one place simple, fast, and convenient.</h2>
         </div>
 
     </div>
@@ -315,7 +315,7 @@
             }
 
             .app-features-section .features-wrapper {
-                max-width: 980px;
+                max-width: 1200px;
                 margin: 0 auto;
             }
 
@@ -391,11 +391,16 @@
                 font-size: 20px;
                 line-height: 1;
                 transition: transform 0.25s ease, color 0.25s ease;
+                margin-right: 10px;
             }
 
             .app-features-section .feature-item.active .feature-arrow {
                 transform: translateX(4px);
                 color: #ed1c24;
+            }
+
+            .app-features-section .feature-item.active .feature-arrow path {
+                stroke: #ed1c24 !important;
             }
 
             .app-features-section .feature-description {
@@ -518,7 +523,7 @@
         <div class="container">
             <div class="features-wrapper">
                 <div class="row g-0 features-row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="features-list">
                             <button class="feature-item active" type="button" data-feature="0">
                                 <span class="feature-icon">
@@ -531,7 +536,10 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Check Your Balance</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Easily view your airtime and data balance in real time, so you’re always in control.
@@ -550,7 +558,10 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Buy Data Bundles</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Browse and purchase data bundles at the best prices quick, simple, and instantly activated.
@@ -568,7 +579,12 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Borrow &amp; Transfer Airtime</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow">
+                                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Never run out when it matters. Borrow airtime or send credit to friends and family anytime.
@@ -586,7 +602,10 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Access Promotions</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Stay updated with the latest Comium offers, bonuses, and exclusive in-app deals.
@@ -604,7 +623,10 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Find the Right Bundle</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Use the built-in data calculator to discover the bundle that perfectly matches your usage.
@@ -622,7 +644,10 @@
                                 <span class="feature-content">
                                     <span class="feature-title-row">
                                         <h3 class="feature-title">Locate Comium Branches</h3>
-                                        <span class="feature-arrow">›</span>
+                                        <span class="feature-arrow"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
                                     </span>
                                     <p class="feature-description">
                                         Quickly find nearby Comium branches and service centers wherever you are in the country.
@@ -632,7 +657,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-8 d-flex">
+                    <div class="col-lg-7 d-flex">
                         <div class="feature-preview">
                             <!-- Background images -->
                             <img class="feature-preview-img active" src="assets/mycomium-app/app-feature-balance.webp" alt="Check Your Balance">

@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - Press Release</title>
+    <title>Comium stands with the people of The Gambia</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>
@@ -46,12 +46,22 @@
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
-    <style>
-        .article-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Comium stands with the people of The Gambia" />
+    <meta property="og:description" content="We’re still here for you. The People’s Network remains committed to affordability." />
+    <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
+    <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
+    <meta property="og:site_name" content="Comium" />
+
+    <!-- Optional but recommended -->
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter (X) fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Comium stands with the people of The Gambia" />
+    <meta name="twitter:description" content="We’re still here for you. The People’s Network remains committed to affordability." />
+    <meta name="twitter:image" content="https://comium.gm/assets/images/bundung-showroom.webp" />
 </head>
 
 <body>
@@ -119,109 +129,157 @@
     </header>
 
     <section class="my-5">
-        <div class="container">
+        <div class="container blog-content">
+            <h1 class="font-bold fs-1">Comium stands with the people of The Gambia</h1>
+            <img src="/assets/images/pura-price.webp" class="my-4 w-100" />
+            <article class="blog-post py-5">
+                <div class="">
+                    <div class="row justify-content-center">
+                        <div class="">
 
-            <h1 class="mb-4 fs-3 font-bold text-center">Press Release</h1>
+                            <div class="blog-content fs-5 lh-lg">
+                                <p>
+                                    For over two years, Comium has stood for one thing above all: affordable, honest, and reliable connectivity for every Gambian, from Banjul to Basse, from schools to small businesses. We’ve expanded our network, simplified our bundles, and fought for fairness in the market.
+                                </p>
 
-            <div class="row g-4">
+                                <p>
+                                    Now, in line with new regulations introduced by the Public Utilities Regulatory Authority (PURA) to ensure network sustainability and long-term stability in the telecom sector, all operators including Comium are required to align with a minimum floor price of D50 per 1GB of data.
+                                </p>
 
-                <!-- Article 1 -->
-                <div class="col-md-4">
-                    <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium completes Ramadan CSR initiative
-                                </h3>
-                                <p class="card-text">
-                                    Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
+                                <p>
+                                    While this means some of our data bundles have been adjusted, starting today, our mission remains unchanged: to provide fair, honest, and transparent services that put the people of The Gambia first.
+                                </p>
+
+                                <div class="mt-5">
+                                    <h2 class="h4 fw-bold mb-3">
+                                        What hasn’t changed
+                                    </h2>
+
+                                    <ul>
+                                        <li>Our commitment to affordability</li>
+                                        <li>Our dedication to real value, not just big numbers</li>
+                                        <li>Our focus on building a network that works for ordinary people</li>
+                                        <li>Our belief that fair pricing will always be our aim</li>
+                                    </ul>
+                                </div>
+
+                                <div class="mt-5">
+                                    <h2 class="h4 fw-bold mb-3">
+                                        Benefit from the DIYAA discounted promo
+                                    </h2>
+
+                                    <p>
+                                        We believe in giving you the best value for your money, no hidden fees, no surprises, just honest and transparent services.
+                                    </p>
+
+                                    <div class="table-responsive my-4">
+                                        <table class="table table-bordered align-middle">
+                                            <thead class="table-light">
+                                                <tr>
+                                                    <th scope="col">Bundles</th>
+                                                    <th scope="col">Tariff</th>
+                                                    <th scope="col">Validity</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>500MB</td>
+                                                    <td>D25</td>
+                                                    <td>2 days</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2GB</td>
+                                                    <td>D100</td>
+                                                    <td>7 days</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5GB</td>
+                                                    <td>D250</td>
+                                                    <td>14 days</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12GB</td>
+                                                    <td>D600</td>
+                                                    <td>14 days</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="mt-5">
+                                    <h2 class="h4 fw-bold mb-3">
+                                        Even with the new pricing, still among the most affordable
+                                    </h2>
+
+                                    <p>
+                                        Comium continues to offer some of the best value in the market, even with the updated pricing.
+                                    </p>
+
+                                    <p>
+                                        You can choose to connect for as little as:
+                                    </p>
+
+                                    <ul>
+                                        <li>100MB for D9</li>
+                                        <li>250MB for D15</li>
+                                        <li>1.5GB for D75 or 5GB for D250</li>
+                                    </ul>
+
+                                    <p>
+                                        And much more affordable packages by dialing <strong>*606#</strong> and selecting your convenient bundle.
+                                    </p>
+                                </div>
+
+                                <div class="mt-5">
+                                    <h2 class="h4 fw-bold mb-3">
+                                        To our customers: We hear you. We see you. We stand with you.
+                                    </h2>
+
+                                    <p>
+                                        We’ve read your messages. We’ve seen your comments. We know you want honesty. You believed in a better deal. We delivered it. And we’ll keep fighting for it.
+                                    </p>
+                                </div>
+
+                                <div class="mt-5">
+                                    <h2 class="h4 fw-bold mb-3">
+                                        To those not yet on Comium
+                                    </h2>
+
+                                    <p>
+                                        Get a Comium SIM today and dial <strong>*606#</strong> to explore all your options including the DIYAA Discounted Promo.
+                                    </p>
+
+                                    <p>
+                                        Comium listens. Comium acts.
+                                    </p>
+                                </div>
+
+                                <div class="card border-0 shadow-sm mt-5">
+                                    <div class="card-body p-4">
+                                        <p class="fw-bold text-uppercase mb-2">
+                                            Stay connected.
+                                        </p>
+
+                                        <p class="fw-bold text-uppercase mb-2">
+                                            Stay with Comium.
+                                        </p>
+
+                                        <p class="fw-bold text-uppercase mb-0">
+                                            We are better together.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="mt-5 mb-0">
+                                    <strong>The Comium Gambia Team</strong>
                                 </p>
                             </div>
+
                         </div>
-                    </a>
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    No village is left behind: Comium expands coverage to 40 additional communities across The Gambia </h3>
-                                <p class="card-text">
-                                    Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-officially-opens-new-bundung-showroom-strengthening-community-presence" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/bundung-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium Officially Opens New Bundung Showroom, Strengthening Community Presence
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/customer-care.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Better together: Strengthening customer experience across Comium’s nationwide showrooms
-                                </h3>
-                                <p class="card-text">
-                                    Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-stands-with-the-people-of-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/pura-price.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium stands with the people of The Gambia
-                                </h3>
-                                <p class="card-text">
-                                    For over two years, Comium has stood for one thing above all: affordable, honest, and reliable connectivity for every Gambian, from Banjul to Basse, from schools to small businesses. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-opens-senegambia-showroom-bringing-services-closer-to-customers" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/senegambia-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium opens Senegambia showroom, bringing services closer to customers
-
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially opened its new Senegambia showroom, reinforcing its commitment to delivering better customer service and staying close to the communities it serves. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
+            </article>
         </div>
     </section>
 

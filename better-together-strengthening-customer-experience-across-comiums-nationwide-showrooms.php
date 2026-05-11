@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - Press Release</title>
+    <title>Better together: Strengthening customer experience across Comium’s nationwide showrooms</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>
@@ -46,12 +46,22 @@
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
-    <style>
-        .article-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Better together: Strengthening customer experience across Comium’s nationwide showrooms" />
+    <meta property="og:description" content="Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like. With that in mind, Comium brought together showroom supervisors from across the country this past weekend for a dedicated Customer Care Workshop. The objective was focused Care Workshop." />
+    <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
+    <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
+    <meta property="og:site_name" content="Comium" />
+
+    <!-- Optional but recommended -->
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter (X) fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Better together: Strengthening customer experience across Comium’s nationwide showrooms" />
+    <meta name="twitter:description" content="Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like. With that in mind, Comium brought together showroom supervisors from across the country this past weekend for a dedicated Customer Care Workshop. The objective was focused Care Workshop." />
+    <meta name="twitter:image" content="https://comium.gm/assets/images/bundung-showroom.webp" />
 </head>
 
 <body>
@@ -119,109 +129,45 @@
     </header>
 
     <section class="my-5">
-        <div class="container">
+        <div class="container blog-content">
+            <h1 class="font-bold fs-1">Better together: Strengthening customer experience across Comium’s nationwide showrooms</h1>
+            <img src="/assets/images/customer-care.webp" class="my-4 w-100" />
+            <article class="blog-post py-5">
+                <div class="">
+                    <div class="row justify-content-center">
+                        <div class="">
 
-            <h1 class="mb-4 fs-3 font-bold text-center">Press Release</h1>
 
-            <div class="row g-4">
+                            <div class="blog-content fs-5 lh-lg">
+                                <p>
+                                    Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like. With that in mind, Comium brought together showroom supervisors from across the country this past weekend for a dedicated Customer Care Workshop. The objective was focused and practical: strengthen team cohesion and ensure clear alignment on key operational priorities across all showrooms nationwide.
+                                </p>
 
-                <!-- Article 1 -->
-                <div class="col-md-4">
-                    <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium completes Ramadan CSR initiative
-                                </h3>
-                                <p class="card-text">
-                                    Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
+                                <p>
+                                    In a fast-evolving telecommunications landscape, customers expect more than connectivity. They expect clarity, responsiveness, reliability, and trust. As Comium continues to expand its services — from telecom connectivity to digital financial solutions through ComCash — the role of our showroom teams becomes even more critical. They are not simply managing transactions; they are representing the brand, resolving real customer challenges, and shaping the daily experience of our communities. They are the human face of an increasingly digital ecosystem.
+                                </p>
+
+                                <p>
+                                    Supervisors, in particular, sit at the intersection of strategy and execution. They translate company objectives into daily action, guide their teams through operational demands, and ensure that service standards are upheld consistently. Bringing them together created space to exchange field insights, address common challenges, and reinforce performance expectations.
+                                </p>
+
+                                <p>
+                                    The presence of leadership during the workshop reflected the importance of this alignment. Customer experience is not isolated within showrooms. It is influenced by network reliability, digital platform performance, operational coordination, and internal support systems. Behind every interaction at the counter stands a wider Comium team: technical experts, digital teams, and operational staff, all ensuring processes run efficiently. When alignment happens at every level, customers feel the difference.
+                                </p>
+
+                                <p>
+                                    The workshop concluded with a team dinner: an opportunity to strengthen not only professional alignment, but friendships and team spirit. Positive energy and strong relationships are just as important as operational clarity when building a high-performing team.
+                                </p>
+
+                                <p>
+                                    As Comium continues to evolve and expand its impact in The Gambia, investing in people remains central to delivering better service. Alignment, accountability, and collaboration are not abstract values; they are practical drivers of a stronger, more consistent customer experience nationwide.
                                 </p>
                             </div>
+
                         </div>
-                    </a>
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    No village is left behind: Comium expands coverage to 40 additional communities across The Gambia </h3>
-                                <p class="card-text">
-                                    Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-officially-opens-new-bundung-showroom-strengthening-community-presence" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/bundung-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium Officially Opens New Bundung Showroom, Strengthening Community Presence
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/customer-care.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Better together: Strengthening customer experience across Comium’s nationwide showrooms
-                                </h3>
-                                <p class="card-text">
-                                    Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-stands-with-the-people-of-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/pura-price.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium stands with the people of The Gambia
-                                </h3>
-                                <p class="card-text">
-                                    For over two years, Comium has stood for one thing above all: affordable, honest, and reliable connectivity for every Gambian, from Banjul to Basse, from schools to small businesses. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-opens-senegambia-showroom-bringing-services-closer-to-customers" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/senegambia-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium opens Senegambia showroom, bringing services closer to customers
-
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially opened its new Senegambia showroom, reinforcing its commitment to delivering better customer service and staying close to the communities it serves. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
+            </article>
         </div>
     </section>
 

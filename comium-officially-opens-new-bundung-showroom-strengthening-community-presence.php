@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Comium - Press Release</title>
+    <title>Comium Officially Opens New Bundung Showroom, Strengthening Community Presence</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="robots" content=”noindex”>
@@ -46,12 +46,22 @@
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
-    <style>
-        .article-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Comium Officially Opens New Bundung Showroom, Strengthening Community Presence" />
+    <meta property="og:description" content="Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia." />
+    <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
+    <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
+    <meta property="og:site_name" content="Comium" />
+
+    <!-- Optional but recommended -->
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter (X) fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Comium Officially Opens New Bundung Showroom, Strengthening Community Presence" />
+    <meta name="twitter:description" content="Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia." />
+    <meta name="twitter:image" content="https://comium.gm/assets/images/bundung-showroom.webp" />
 </head>
 
 <body>
@@ -119,109 +129,70 @@
     </header>
 
     <section class="my-5">
-        <div class="container">
+        <div class="container blog-content">
+            <h1 class="font-bold fs-1">Comium Officially Opens New Bundung Showroom, Strengthening Community Presence</h1>
+            <img src="/assets/images/bundung-showroom.webp" class="my-4 w-100" />
+            <article class="blog-post py-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="">
 
-            <h1 class="mb-4 fs-3 font-bold text-center">Press Release</h1>
+                            <div class="blog-content fs-5 lh-lg">
+                                <p>
+                                    Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia.
+                                </p>
 
-            <div class="row g-4">
+                                <p>
+                                    The opening ceremony brought together senior members of Comium’s leadership team, led by Managing Director Jad Nassif, alongside respected community figures including the Alkalo of Bundung, the Imam of Bundung, the Bundung Youth Councillor, and a distinguished group of local elders. The event was further enriched by the presence of the Comium Bundung Women Kafo, reflecting the strong cultural and community spirit at the heart of the occasion.
+                                </p>
 
-                <!-- Article 1 -->
-                <div class="col-md-4">
-                    <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium completes Ramadan CSR initiative
-                                </h3>
-                                <p class="card-text">
-                                    Comium donates D1 million to each beneficiary as part of its Ramadan CSR initiative.
+                                <p>
+                                    In his remarks, Mr. Nassif highlighted Comium’s commitment to staying close to its customers and empowering communities through improved connectivity and accessible services. He noted that the Bundung showroom will serve as a key hub for customer engagement, product offerings, and digital services, including support for the MyComium App.
+                                </p>
+
+                                <p>
+                                    Community leaders welcomed the initiative, emphasizing the value of having a modern, customer-focused telecom facility within reach. They commended Comium for its continued investment in local communities and its role in advancing digital inclusion.
+                                </p>
+
+                                <p>
+                                    Designed to deliver a seamless customer experience, the new Bundung showroom offers SIM registration, device support, mobile money services, and access to Comium’s latest promotions and data solutions.
+                                </p>
+
+                                <p>
+                                    This opening forms part of Comium’s broader expansion strategy, with new and relocated showrooms across the country aimed at bringing services closer to the people they serve.
                                 </p>
                             </div>
-                        </div>
-                    </a>
-                </div>
 
-                <div class="col-md-4">
-                    <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    No village is left behind: Comium expands coverage to 40 additional communities across The Gambia </h3>
-                                <p class="card-text">
-                                    Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
-                                </p>
+                            <div class="card border-0 shadow-sm mt-5">
+                                <div class="card-body p-4">
+                                    <h2 class="h5 fw-bold mb-3">
+                                        Media Contact
+                                    </h2>
+
+                                    <p class="mb-1">
+                                        <strong>Comium PR &amp; Communications Director</strong>
+                                    </p>
+
+                                    <p class="mb-1">
+                                        Email:
+                                        <a href="mailto:igceesay@comium.gm">
+                                            igceesay@comium.gm
+                                        </a>
+                                    </p>
+
+                                    <p class="mb-0">
+                                        Phone:
+                                        <a href="tel:+2206600533">
+                                            +220 6600533
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
+
                         </div>
-                    </a>
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-officially-opens-new-bundung-showroom-strengthening-community-presence" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/bundung-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium Officially Opens New Bundung Showroom, Strengthening Community Presence
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/customer-care.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Better together: Strengthening customer experience across Comium’s nationwide showrooms
-                                </h3>
-                                <p class="card-text">
-                                    Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-stands-with-the-people-of-the-gambia" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/pura-price.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium stands with the people of The Gambia
-                                </h3>
-                                <p class="card-text">
-                                    For over two years, Comium has stood for one thing above all: affordable, honest, and reliable connectivity for every Gambian, from Banjul to Basse, from schools to small businesses. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="/comium-opens-senegambia-showroom-bringing-services-closer-to-customers" class="text-decoration-none text-dark">
-                        <div class="card article-card h-100 blog-thumb">
-                            <img src="/assets/images/senegambia-showroom.webp" class="card-img-top" alt="Article Image">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Comium opens Senegambia showroom, bringing services closer to customers
-
-                                </h3>
-                                <p class="card-text">
-                                    Comium has officially opened its new Senegambia showroom, reinforcing its commitment to delivering better customer service and staying close to the communities it serves. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
+            </article>
         </div>
     </section>
 

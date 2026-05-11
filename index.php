@@ -1564,15 +1564,15 @@
             <div class="row g-4 d-flex justify-content-center">
 
               <div class="col-md-4">
-                <a href="/comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary" class="text-decoration-none text-dark">
+                <a href="/comium-officially-opens-new-bundung-showroom-strengthening-community-presence" class="text-decoration-none text-dark">
                   <div class="card article-card h-100">
-                    <img src="/assets/images/comium-article.webp" class="card-img-top" alt="Article Image">
+                    <img src="/assets/images/bundung-showroom.webp" class="card-img-top" alt="Article Image">
                     <div class="card-body">
                       <h5 class="card-title">
-                        COMIUM COMPLETES RAMADAN CSR INITIATIVE, DONATES D1 MILLION TO EACH BENEFICIARY
+                        Comium Officially Opens New Bundung Showroom, Strengthening Community Presence
                       </h5>
                       <p class="card-text">
-                        Banjul, The Gambia - Comium has successfully concluded its Ramadan corporate social responsibility initiative...
+                        Comium has officially launched its new showroom in Bundung, marking another important step in expanding access to reliable and affordable telecom services across The Gambia...
                       </p>
                     </div>
                   </div>
@@ -1580,16 +1580,31 @@
               </div>
 
               <div class="col-md-4">
-                <a href="/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" class="text-decoration-none text-dark">
+                <a href="/better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms" class="text-decoration-none text-dark">
                   <div class="card article-card h-100">
-                    <img src="/assets/images/no-village-left-behind.webp" class="card-img-top" alt="Article Image">
+                    <img src="/assets/images/customer-care.webp" class="card-img-top" alt="Article Image">
                     <div class="card-body">
                       <h5 class="card-title">
-                        NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA
+                        Better together: Strengthening customer experience across Comium’s nationwide showrooms
                       </h5>
                       <p class="card-text">
-                        Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health...
+                        Customer experience only improves when teams align, recalibrate, and move forward with a shared understanding of what excellence looks like...
                       </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="/comium-stands-with-the-people-of-the-gambia" class="text-decoration-none text-dark">
+                  <div class="card article-card h-100">
+                    <img src="/assets/images/pura-price.webp" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Comium stands with the people of The Gambia
+                      </h5>
+                      <p class="card-text">
+                        For over two years, Comium has stood for one thing above all: affordable, honest, and reliable connectivity for every Gambian, from Banjul to Basse, from schools to small businesses. </p>
                     </div>
                   </div>
                 </a>

@@ -63,6 +63,12 @@ RewriteRule ^mycomium-app$ /mycomium-app.php [L]
 
 
 RewriteRule ^comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary$ /comium-completes-ramadan-csr-initiative-donates-d1-million-to-each-beneficiary.php [L]
+RewriteRule ^comium-officially-opens-new-bundung-showroom-strengthening-community-presence$ /comium-officially-opens-new-bundung-showroom-strengthening-community-presence.php [L]
+RewriteRule ^comium-opens-senegambia-showroom-bringing-services-closer-to-customers$ /comium-opens-senegambia-showroom-bringing-services-closer-to-customers.php [L]
+RewriteRule ^comium-stands-with-the-people-of-the-gambia$ /comium-stands-with-the-people-of-the-gambia.php [L]
+RewriteRule ^better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms$ /better-together-strengthening-customer-experience-across-comiums-nationwide-showrooms.php [L]
+
+
 
 
 RewriteRule ^comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone$ /comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone.php [L]

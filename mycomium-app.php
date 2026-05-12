@@ -327,7 +327,7 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                border-radius: 0 0 18px 18px;
+                border-radius: 20px 0 0 20px;
                 overflow: hidden;
             }
 
@@ -339,7 +339,7 @@
                 border-bottom: 1px solid #fff;
                 background: #f3f3f3;
                 text-align: left;
-                padding: 17px 18px;
+                padding: 25px 18px;
                 display: flex;
                 align-items: flex-start;
                 gap: 14px;
@@ -522,8 +522,8 @@
 
         <div class="container">
             <div class="features-wrapper">
-                <div class="row g-0 features-row">
-                    <div class="col-lg-5">
+                <div class="row g-3 features-row">
+                    <div class="col-lg-6">
                         <div class="features-list">
                             <button class="feature-item active" type="button" data-feature="0">
                                 <span class="feature-icon">
@@ -657,14 +657,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7 d-flex">
+                    <div class="col-lg-6 d-flex">
                         <div class="feature-preview">
                             <!-- Background images -->
-                            <img class="feature-preview-img active" src="assets/mycomium-app/app-feature-balance.webp" alt="Check Your Balance">
+                            <img style="transform: scaleX(-1);" class="feature-preview-img active" src="assets/mycomium-app/app-feature-balance-1.webp" alt="Check Your Balance">
                             <img class="feature-preview-img" src="assets/mycomium-app/app-feature-bundles.webp" alt="Buy Data Bundles">
                             <img class="feature-preview-img" src="assets/mycomium-app/app-feature-transfer.webp" alt="Borrow and Transfer Airtime">
-                            <img class="feature-preview-img" src="assets/mycomium-app/app-feature-promotions.webp" alt="Access Promotions">
-                            <img class="feature-preview-img" src="assets/mycomium-app/app-feature-calculator.webp" alt="Find the Right Bundle">
+                            <img class="feature-preview-img" src="assets/mycomium-app/app-feature-promotions-1.webp" alt="Access Promotions">
+                            <img style="transform: scaleX(-1);" class="feature-preview-img" src="assets/mycomium-app/app-feature-calculator-1.webp" alt="Find the Right Bundle">
                             <img class="feature-preview-img" src="assets/mycomium-app/app-feature-branches.webp" alt="Locate Comium Branches">
 
                             <!-- Phone overlay images -->

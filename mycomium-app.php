@@ -282,12 +282,12 @@
                     <h1>Everything You Need,<br>Right at Your Fingertips.</h1>
 
                     <div class="store-buttons">
-                        <a href="https://apps.apple.com/gm/app/mycomium/id6471830177" class="store-btn apple">
+                        <a target="_blank" href="https://apps.apple.com/gm/app/mycomium/id6471830177" class="store-btn apple">
                             <img src="assets/mycomium-app/apple.webp" alt="">
                             Apple Store
                         </a>
 
-                        <a href="https://play.google.com/store/apps/details?id=com.montymobile.vas_commium_self_care" class="store-btn google">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.montymobile.vas_commium_self_care" class="store-btn google">
                             <img src="assets/mycomium-app/playstore.webp" alt="">
                             Google Play
                         </a>
@@ -1108,12 +1108,12 @@
                     <p class="subtitle">Download the My Comium App today.</p>
 
                     <div class="store-buttons">
-                        <a href="https://apps.apple.com/gm/app/mycomium/id6471830177" class="store-btn apple">
+                        <a target="_blank" href="https://apps.apple.com/gm/app/mycomium/id6471830177" class="store-btn apple">
                             <img src="assets/mycomium-app/apple.webp" alt="">
                             Apple Store
                         </a>
 
-                        <a href="https://play.google.com/store/apps/details?id=com.montymobile.vas_commium_self_care" class="store-btn google">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.montymobile.vas_commium_self_care" class="store-btn google">
                             <img src="assets/mycomium-app/playstore.webp" alt="">
                             Google Play
                         </a>

@@ -136,184 +136,20 @@
           </div>
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/images/tobaski.webp" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <a href="/comcach"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b1.webp" alt="" /></a>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <a href="/fastnet"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b2.webp" alt="" /></a>
-            </div>
-          </div>
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b3.webp" alt="" />
-            </div>
-          </div> -->
-          <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b4.webp" alt="" />
-            </div>
-          </div>
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b5.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b6.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b7.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b8.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/b9.webp" alt="" />
-            </div>
-          </div> -->
 
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/images/bundles/vacation.webp" alt="" />
             </div>
           </div>
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach-home-banner.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/mega-website.webp" alt="" />
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/new1.webp" alt="" />
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/new2.webp" alt="" />
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/new3.webp" alt="" />
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/new4.webp" alt="" />
-            </div>
-          </div> -->
-
-
-
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/img6.webp" alt="" />
-            </div>
-          </div> -->
-
-
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <a href="/fastnet"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/fastnet-2.webp" alt=""></a>
-              <img class="d-none d-md-block" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach.webp" alt="">
-              <img class="d-block d-md-none" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach-mobile.webp" alt="">
-            </div>
-
-          </div> -->
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <a href="/comcach"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach2.webp" alt=""></a>
-              <img class="d-none d-md-block" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach.webp" alt="">
-              <img class="d-block d-md-none" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach-mobile.webp" alt="">
-            </div>
-
-          </div> -->
-
-          <!-- <div class="swiper-slide">
-            <div class="" style="width:100%;min-height:100vh;padding-top:0;background-color:transparent;">
-              <a href="/change-has-come"><img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/change-has-come-banner.webp" alt=""></a>
-              <img class="d-none d-md-block" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach.webp" alt="">
-              <img class="d-block d-md-none" style="width:100%;height:100%;object-fit:cover;" src="/assets/img/comcach-mobile.webp" alt="">
-            </div>
-
-          </div> -->
-
-
-          <!-- <div class="swiper-slide" style>
-            <a href="https://comium.gm/change-has-come">
-              <div class="banner-wrapper" style="">
-                <div class="container-fluid container-xl d-flex justify-content-end">
-                  <div class=" banner-text bann-width" style="color:white;">
-                    <img class="w-100" src="assets/img/landingtext.webp" alt="landing text">
-                  </div>
-                </div>
-              </div>
-              <picture>
-                <source srcset="assets/img/landingbannernotext.webp" media="(min-width: 768px)" alt="Global Financial Technology D" width="100%">
-                <img src="assets/img/landingimage.webp" alt="Global Financial Technology M" width="100%">
-              </picture>
-            </a>
-
-          </div> -->
-
-
-
-          <!--<div class="swiper-slide" style="overlflow:hidden;background-color: #e2211c !important;">
-            <div class="banner-wrapper">
-              <div class="container-fluid container-xl">
-                <div class="row d-flex align-items-center">
-                  <div class="col-md-6">
-                    <div class="banner-text" style="width:100%;color:white">
-                      <h2 style="font-size: 60px; font-weight: bold; line-height: 68px; margin-bottom: 20px;">Buy your Comium credit through your <br> <span style="color:#1dc8ff;font-size:110px;">wave</span> <br>account now!</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <picture>
-                      <img src="assets/images/combanner.webp" alt="Global Financial Technology M" width="100%" />
-                    </picture>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>-->
-
-          <!-- <div class="swiper-slide" style="background-color: #ffffff !important;">
-            <div class="banner-wrapper" style="background-color:transparent !important;">
-              <div class="container-fluid container-xl">
-                <div class="banner-text">
-                  <h2 style=" font-size: 60px; font-weight: bold; line-height: 68px;margin-bottom: 20px;"> Unleash the fastest connectivity! </h2>
-                  <p style="margin-top:10px;"> Experience lightning-fast 4G+ connectivity wherever you go. Stay connected like never before with the fastest 4G+ connectivity in The Gambia. </p>
-                </div>
-              </div>
-            </div>
-            <video class="d-none d-md-block" width="100%" autoplay="autoplay" muted="muted" loop="loop">
-              <source src="assets/img/banner1.mp4" type="video/mp4">
-
-            </video>
-            <video class="d-block d-md-none" width="100%" autoplay="autoplay" muted="muted" loop="loop">
-              <source src="assets/img/banner1-mobile.mp4" type="video/mp4">
-
-            </video>
-          </div> -->
-
 
         </div>
         <div class="swiper-pagination"></div>

@@ -558,7 +558,7 @@
                                     [
                                         'price' => 'D30',
                                         'data' => '300MB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial 152 <br /> or *606#',
                                         'on_net' => '20 mins',
                                         'off_net' => '',
@@ -567,7 +567,7 @@
                                     [
                                         'price' => 'D50',
                                         'data' => '600MB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '40 mins',
                                         'off_net' => '',
@@ -576,7 +576,7 @@
                                     [
                                         'price' => 'D75',
                                         'data' => '900MB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '70 mins',
                                         'off_net' => '',
@@ -585,7 +585,7 @@
                                     [
                                         'price' => 'D300',
                                         'data' => '2.5GB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '100 mins',
                                         'off_net' => '100 mins',
@@ -594,7 +594,7 @@
                                     [
                                         'price' => 'D600',
                                         'data' => '4.5GB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial *606#',
                                         'on_net' => '250 mins',
                                         'off_net' => '250 mins',
@@ -603,7 +603,7 @@
                                     [
                                         'price' => 'D1000',
                                         'data' => '11.5GB',
-                                        'validity' => '30days',
+                                        'validity' => '7days',
                                         'how_to_subscribe' => 'Dial 153 <br/> or *606#',
                                         'on_net' => '1000 mins',
                                         'off_net' => '500 mins',

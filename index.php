@@ -136,7 +136,7 @@
           </div>
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
-              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/images/tobaski.webp" alt="" />
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/roaming-bundles.webp" alt="" />
             </div>
           </div>
           <div class="swiper-slide">
@@ -373,6 +373,26 @@
 
                     <p class="isp-random">
                       Quickly access Comium’s most important service codes for checking your balance, data usage, own number, and transferring credit.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/features-and-services" style="color:black;">
+                  <div class="service-box red">
+                    <span>
+                      <img style="overflow: visible;" src="assets/images/ir.webp" alt="Features and Services" />
+                    </span>
+                    <h3>Features &amp; Services</h3>
+                    <p class="isp-mobile">
+                      Explore Comium’s latest features and services, including roaming bundles, SMS DND service, SIM validity extension, and more.
+                      <br>
+                    </p>
+                    <p class="isp-overlay">
+                      Explore Comium’s latest features and services, including roaming bundles, SMS DND service, SIM validity extension, and more.
+                    </p>
+                    <p class="isp-random">
+                      Explore Comium’s latest features and services, including roaming bundles, SMS DND service, SIM validity extension, and more.
                     </p>
                   </div>
                 </a>

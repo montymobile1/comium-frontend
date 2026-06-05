@@ -46,6 +46,22 @@
 
     <link href="assets/international-roaming/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/international-roaming/style.css?v=1" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
+    <meta property="og:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta property="og:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
+    <meta property="og:url" content="https://comium.gm/no-village-is-left-behind-comium-expands-coverage-to-40-additional-communities-across-the-gambia" />
+    <meta property="og:site_name" content="Comium" />
+
+    <!-- Optional but recommended -->
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter (X) fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NO VILLAGE IS LEFT BEHIND: COMIUM EXPANDS COVERAGE TO 40 ADDITIONAL COMMUNITIES ACROSS THE GAMBIA" />
+    <meta name="twitter:description" content="Reliable mobile service has become as essential as electricity and clean water, underpinning education, commerce, health, and civic life. Yet many rural Gambian communities have continued to sit on the wrong side of the digital divide." />
+    <meta name="twitter:image" content="https://comium.gm/assets/images/no-village-left-behind.webp" />
 </head>
 
 <body>
@@ -112,154 +128,70 @@
         </div>
     </header>
 
-    <div class="roaming-banner">
-        <img src='/assets/international-roaming/banner.webp' />
-        <div class="container">
-            <div class="half-width">
-                <h1>ROAM FREELY, <br /> CONNECT GLOBALLY.</h1>
-                <p>Stay connected worldwide with seamless calls, texts, and data
-                    wherever you go.</p>
+    <section class="py-5 my-5 container">
+        <h4 class="red-title">COMIUM SMS DND Service</h4>
+
+        <p>
+            Control the SMS messages you receive.
+        </p>
+
+        <div class="row g-3 mt-2">
+            <div class="col-md-6">
+                <div class="p-3 border rounded h-100">
+                    <h5>Block All Promotional SMS</h5>
+                    <p class="mb-1">Send: <strong class="red-text">STOP</strong> to <strong>1040</strong></p>
+                    <p class="mb-0">Result: You won’t receive any promotional messages.</p>
+                </div>
             </div>
 
-        </div>
-    </div>
-    <div class="bc">
-        <div class="container">
-            <div class="bc-content">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 6.04337C1 5.66046 1 5.46901 1.04935 5.2927C1.09307 5.13652 1.16491 4.98963 1.26135 4.85924C1.37022 4.71204 1.52135 4.5945 1.82359 4.35942L6.34513 0.842666C6.57935 0.660497 6.69646 0.569413 6.82577 0.5344C6.93987 0.503507 7.06013 0.503507 7.17423 0.5344C7.30354 0.569413 7.42065 0.660497 7.65487 0.842666L12.1764 4.35942C12.4787 4.5945 12.6298 4.71204 12.7386 4.85924C12.8351 4.98963 12.9069 5.13652 12.9506 5.2927C13 5.46901 13 5.66046 13 6.04337V10.8667C13 11.6134 13 11.9868 12.8547 12.272C12.7268 12.5229 12.5229 12.7268 12.272 12.8547C11.9868 13 11.6134 13 10.8667 13H3.13333C2.3866 13 2.01323 13 1.72801 12.8547C1.47713 12.7268 1.27316 12.5229 1.14532 12.272C1 11.9868 1 11.6134 1 10.8667V6.04337Z" stroke="#B50000" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <p>
-                    Home > International Roaming
-                </p>
+            <div class="col-md-6">
+                <div class="p-3 border rounded h-100">
+                    <h5>Receive All SMS Again</h5>
+                    <p class="mb-1">Send: <strong class="red-text">ALLOW</strong> to <strong>1040</strong></p>
+                    <p class="mb-0">Result: All messages will be restored.</p>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <?php
-    $filter = $_GET['filter'] ?? 'overview';
-    $filters = [
-        'overview' => 'Overview',
-        'roaming-tariff' => 'Roaming Tariff',
-        'roaming-bundles' => 'Roaming Bundles',
-        'roaming-complaints' => 'Roaming Complaints',
-        'faqs-and-troubleshooting' => 'FAQs & Troubleshooting'
-    ];
+            <div class="col-md-6">
+                <div class="p-3 border rounded h-100">
+                    <h5>Block Specific SMS Categories</h5>
+                    <p class="mb-2">Send the number(s) of the category you want to block:</p>
 
-    ?>
+                    <ul class="mb-2">
+                        <li><strong>1</strong> – New Products / Services</li>
+                        <li><strong>2</strong> – News Alerts</li>
+                        <li><strong>3</strong> – Promos / Bets</li>
+                        <li><strong>4</strong> – Religion</li>
+                    </ul>
 
+                    <p class="mb-0">You can choose one or multiple.</p>
+                </div>
+            </div>
 
-    <section>
-        <div class="container">
-            <div>
-                <ul class="nav international-roaming-filters">
-                    <?php foreach ($filters as $key => $f): ?>
-                        <li class="<?= $filter == $key ? 'active' : '' ?>"
-                            data-bs-toggle="pill"
-                            data-bs-target="#<?= $key ?>"
-                            data-filter="<?= $key ?>"
-                            role="tab">
-                            <?= $f ?>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-                <div class="tab-content international-roaming-content">
-                    <div class="tab-pane fade <?= $filter == 'overview' ? 'show active' : '' ?>" id="overview">
-                        <h3 class="red-title">Overview</h3>
-
-                        <h5>
-                            Stay effortlessly connected, no matter where your travels take you with COMIUM Gambia’s international roaming SIM Card.
-                        </h5>
-
-                        <p>
-                            Experience smooth, high-quality communication, seamless data, and uninterrupted service across partner networks worldwide – all while keeping your COMIUM number.
-                        </p>
-
-                        <p>
-                            <i>Travel with confidence, knowing that you’re always just a call away with <span class="red-text"><strong>Comium!</strong></span></i>
-                        </p>
-
-                        <hr class="my-4">
-
-                        <h4 class="red-title">Introducing the New USSD Menu for Roaming Bundles</h4>
-
-                        <p>
-                            Buy your Comium roaming bundles directly via USSD by dialing
-                            <strong class="red-text">*622#</strong>.
-                        </p>
-
-                        <p>
-                            Easy, direct, and more accessible.
-                        </p>
-
-                        <h5 class="mt-4">
-                            Enjoy strong and reliable internet worldwide
-                        </h5>
-
-                        <div class="table-responsive mt-3">
-                            <table class="table table-bordered table-striped align-middle">
-                                <thead>
-                                    <tr>
-                                        <th>Bundle</th>
-                                        <th>Validity</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>100MB</td>
-                                        <td>3 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>200MB</td>
-                                        <td>3 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>500MB</td>
-                                        <td>7 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1GB</td>
-                                        <td>15 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3GB</td>
-                                        <td>20 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5GB</td>
-                                        <td>30 Days</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade <?= $filter == 'roaming-tariff' ? 'show active' : '' ?> " id="roaming-tariff">
-                        <?php include_once('components/roaming-tariff.php'); ?>
-                    </div>
-
-
-                    <div class="tab-pane fade <?= $filter == 'roaming-bundles' ? 'show active' : '' ?> " id="roaming-bundles">
-                        <?php include_once('components/roaming-bundles.php'); ?>
-                    </div>
-                    <div class="tab-pane fade <?= $filter == 'roaming-complaints' ? 'show active' : '' ?> " id="roaming-complaints">
-                        <?php include_once('components/complaints.php'); ?>
-                    </div>
-                    <div class="tab-pane fade <?= $filter == 'faqs-and-troubleshooting' ? 'show active' : '' ?> " id="faqs-and-troubleshooting">
-                        <?php include_once('components/faqs.php'); ?>
-                    </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded h-100">
+                    <h5>Check Your Status</h5>
+                    <p class="mb-1">Send: <strong class="red-text">STATUS</strong> to <strong>1040</strong></p>
+                    <p class="mb-0">Result: See your current DND settings.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section class="customer-service">
-        <div class="container text-center">
-            <h6>Customer Service</h6>
-            <p>We, at Comium offer the best-in-class customer service. Our team of trained professionals is dedicated to you
-                and always ready to assist you, answer all your enquiries, and explain any service or offer you need 24/7.</p>
+        <hr class="my-4">
+
+        <h4 class="red-title">SIM Validity Extension</h4>
+
+        <div class="p-3 border rounded">
+            <h5>Keep your Comium SIM active for longer!</h5>
+
             <p>
-                Call Comium centers on <span class="red-text">111</span> for free Or send us an email at <a href="mailto:info@comium.gm">info@Comium.gm</a>
+                Are you traveling, away, or not using your line regularly?
+                Extend your SIM validity for <strong>1 full year</strong> for only
+                <strong class="red-text">D10</strong> and stay connected whenever you need it.
+            </p>
+
+            <p class="mb-0">
+                Send <strong class="red-text">SUB</strong> to <strong>1003</strong>
             </p>
         </div>
     </section>

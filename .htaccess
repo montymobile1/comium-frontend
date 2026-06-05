@@ -58,6 +58,7 @@ RewriteRule ^international-direct-dialing/?$ /international-direct-dialing.php [
 RewriteRule ^landing$ /landing.html [L]
 
 RewriteRule ^useful-codes$ /useful-codes.php [L]
+RewriteRule ^features-and-services$ /features-and-services.php [L]
 
 RewriteRule ^mycomium-app$ /mycomium-app.php [L]
 

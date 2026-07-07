@@ -131,6 +131,16 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="" style="width:100%;padding-top:0;background-color:transparent;">
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/whatsapp-banner.webp" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
+              <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/kick-off.webp" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="" style="width:100%;padding-top:0;background-color:transparent;">
               <img class="" style="width:100%;height:100%;object-fit:cover;" src="/assets/banner/comium-app-banner-3.webp" alt="" />
             </div>
           </div>

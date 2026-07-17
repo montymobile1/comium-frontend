@@ -407,6 +407,26 @@
                   </div>
                 </a>
               </div>
+              <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <a href="/local-tariff" style="color:black;">
+                  <div class="service-box red">
+                    <span>
+                      <img src="assets/img/voice.svg?v3" alt="Local Tariff" />
+                    </span>
+                    <h3>Local Tariff</h3>
+                    <p class="isp-mobile">
+                      View Comium’s local call and SMS rates for on-net, off-net, and international SMS services.
+                      <br>
+                    </p>
+                    <p class="isp-overlay">
+                      View Comium’s local call and SMS rates for on-net, off-net, and international SMS services.
+                    </p>
+                    <p class="isp-random">
+                      View Comium’s local call and SMS rates for on-net, off-net, and international SMS services.
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -2301,7 +2321,7 @@
                         </div>
 
                         <div class="mt-auto d-flex gap-2">
-                          <a href="https://www.google.com/maps/search/?api=1&query=13.278055,-16.63812" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.53379,-14.924085" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
                           <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
                         </div>
                       </div>
@@ -2426,7 +2446,7 @@
                         </div>
 
                         <div class="mt-auto d-flex gap-2">
-                          <a href="https://www.google.com/maps/search/?api=1&query=13.441567,-15.532494" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
+                          <a href="https://www.google.com/maps/search/?api=1&query=13.44168,-15.535617" target="_blank" class="btn btn-sm btn-outline-secondary flex-fill">View map</a>
                           <a href="tel:111" class="btn btn-sm btn-light border flex-fill">Call</a>
                         </div>
                       </div>

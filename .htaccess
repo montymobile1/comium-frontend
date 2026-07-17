@@ -59,6 +59,7 @@ RewriteRule ^landing$ /landing.html [L]
 
 RewriteRule ^useful-codes$ /useful-codes.php [L]
 RewriteRule ^features-and-services$ /features-and-services.php [L]
+RewriteRule ^local-tariff$ /local-tariff.php [L]
 
 RewriteRule ^mycomium-app$ /mycomium-app.php [L]
 
